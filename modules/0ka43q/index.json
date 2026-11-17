@@ -1,0 +1,52 @@
+{
+  "name": "Üst Kısa Etiket — baş harf çemberli, dar ekranda çember menü",
+  "description": "Her sayfa baş harfini taşıyan yuvarlak bir çember + adı; Anasayfa çemberinde ev simgesi. Geniş ekranda çember ve ad yan yana, üzerine gelince çember hafifçe döner. Dar ekranda hamburger yok: yalnız çemberler sıralanır, etkin (ya da odaklanan) sayfanın çemberi adını göstererek hap gibi uzar. JS gerekmez. Hamburger yerine sayfa monogramları: dar ekranda tüm sayfalar tek dokunuşla görünür kalır ama yer kaplamaz; etkin sayfa adıyla açılır — uygulama sekme ikonları gibi. Sayfalar site sayfalarından, dil seçici {{langbar}}, logo {{logo}}. Mobil menü erişilebilir (aria-expanded, Esc, odak). Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+  "version": "1.0.0",
+  "icon": "radio_button_checked",
+  "category": "menu",
+  "subCategory": "monogram-nav",
+  "tags": [
+    "menu",
+    "monogram",
+    "initials",
+    "no-hamburger",
+    "expanding",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "0px",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "cta_ad": "",
+    "cta_url": "",
+    "tel": "",
+    "logoimg": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "logoH": "44px",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "name": "ek bağlantı adı (dil sözlüğü)",
+      "url": "iç yol ya da dış adres (dış adres yeni sekmede)"
+    }
+  }
+}

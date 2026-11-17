@@ -1,0 +1,93 @@
+<header class="modulex-ust-kisa-etiket{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ust-kisa-etiket-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</header>
+
+<style>
+  /* ust-kisa-etiket — Hamburger yerine sayfa monogramları: dar ekranda tüm sayfalar tek dokunuşla görünür kalır ama yer kaplamaz; etkin sayfa adıyla açılır — uygulama sekme ikonları gibi. */
+  .modulex-ust-kisa-etiket { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ust-kisa-etiket *, .modulex-ust-kisa-etiket *::before, .modulex-ust-kisa-etiket *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ust-kisa-etiket :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ust-kisa-etiket :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ust-kisa-etiket :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ust-kisa-etiket :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ust-kisa-etiket img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ust-kisa-etiket) img { height: auto; }
+  .modulex-ust-kisa-etiket [hidden] { display: none !important; }
+  .modulex-ust-kisa-etiket :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ust-kisa-etiket :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ust-kisa-etiket-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ust-kisa-etiket-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ust-kisa-etiket--bassiz .modulex-ust-kisa-etiket-bas { display: none; }
+  .modulex-ust-kisa-etiket-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ust-kisa-etiket-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ust-kisa-etiket-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ust-kisa-etiket-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ust-kisa-etiket-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ust-kisa-etiket-dugme:hover { transform: translateY(-2px); }
+  .modulex-ust-kisa-etiket-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ust-kisa-etiket-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ust-kisa-etiket-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ust-kisa-etiket { position: relative; z-index: 900; }
+  .modulex-ust-kisa-etiket-logo { display: inline-flex; flex: 0 1 auto; min-width: 0; align-items: center; color: inherit; text-decoration: none; }
+  /* dar ekranda geniş logo/uzun ad çubuğu taşırmasın: logo daralır (img max-width 100%), ad sarar */
+  .modulex-ust-kisa-etiket-logo img { width: auto; max-height: --logoH--; }
+  .modulex-ust-kisa-etiket-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-ust-kisa-etiket-oge { position: relative; display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-weight: 600; text-decoration: none; transition: color 0.2s ease, background 0.2s ease; }
+  .modulex-ust-kisa-etiket-oge:hover, .modulex-ust-kisa-etiket-oge[aria-current="page"] { color: --accentInk--; }
+  .modulex-ust-kisa-etiket-cta { display: inline-flex; flex: none; align-items: center; gap: 6px; min-height: 44px; padding: 8px 18px; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; white-space: nowrap; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .modulex-ust-kisa-etiket-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -12px --accent--; }
+  .modulex-ust-kisa-etiket-cta .material-symbols-outlined, .modulex-ust-kisa-etiket-tel .material-symbols-outlined, .modulex-ust-kisa-etiket-posta .material-symbols-outlined { font-size: 18px; }
+  .modulex-ust-kisa-etiket-tel, .modulex-ust-kisa-etiket-posta { display: inline-flex; align-items: center; gap: 6px; color: inherit; text-decoration: none; white-space: nowrap; }
+  .modulex-ust-kisa-etiket-tel:hover, .modulex-ust-kisa-etiket-posta:hover { color: --accentInk--; }
+  .modulex-ust-kisa-etiket-dil:empty { display: none; }
+  .modulex-ust-kisa-etiket-ac { display: none; align-items: center; gap: 10px; min-width: 46px; min-height: 46px; padding: 0 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: inherit; font: inherit; font-weight: 700; }
+  .modulex-ust-kisa-etiket-ac-ikon { display: grid; gap: 4px; width: 20px; }
+  .modulex-ust-kisa-etiket-ac-ikon span { display: block; height: 2px; border-radius: 2px; background: currentColor; transition: transform 0.3s ease, opacity 0.3s ease; }
+  .modulex-ust-kisa-etiket--acik .modulex-ust-kisa-etiket-ac-ikon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .modulex-ust-kisa-etiket--acik .modulex-ust-kisa-etiket-ac-ikon span:nth-child(2) { opacity: 0; }
+  .modulex-ust-kisa-etiket--acik .modulex-ust-kisa-etiket-ac-ikon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .modulex-ust-kisa-etiket-kapat { display: inline-grid; place-items: center; width: 46px; height: 46px; border: 1px solid --cizgi--; border-radius: 50%; background: transparent; color: inherit; }
+  .modulex-ust-kisa-etiket-perde { position: fixed; inset: 0; z-index: 1; background: color-mix(in srgb, --text-- 45%, transparent); animation: modulex-ust-kisa-etiket-sol 0.3s ease both; }
+  @keyframes modulex-ust-kisa-etiket-sol { from { opacity: 0; } to { opacity: 1; } }
+
+  .modulex-ust-kisa-etiket-dizi { display: flex; align-items: center; gap: 12px 26px; padding-block: 14px; }
+  .modulex-ust-kisa-etiket-dizi > .modulex-ust-kisa-etiket-nav { flex: 1 1 auto; min-width: 0; }
+  .modulex-ust-kisa-etiket-monolar { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px; }
+  .modulex-ust-kisa-etiket-mono { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 4px; padding-inline-end: 16px; border-radius: 999px; color: inherit; font-weight: 600; text-decoration: none; transition: background-color 0.25s ease, box-shadow 0.25s ease; }
+  .modulex-ust-kisa-etiket-harf { display: inline-grid; flex: none; place-items: center; width: 40px; height: 40px; border-radius: 50%; background-color: --kartBg--; box-shadow: inset 0 0 0 1.5px --cizgi--; color: --accentInk--; font-family: var(--mx-font-heading, inherit); font-size: 1.05rem; font-weight: 800; line-height: 1; transition: background-color 0.25s ease, color 0.25s ease, transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1.4); }
+  .modulex-ust-kisa-etiket-harf .material-symbols-outlined { font-size: 20px; }
+  .modulex-ust-kisa-etiket-mono:hover { box-shadow: inset 0 0 0 1px --cizgi--; }
+  .modulex-ust-kisa-etiket-mono:hover .modulex-ust-kisa-etiket-harf { transform: rotate(-8deg) scale(1.06); }
+  .modulex-ust-kisa-etiket-mono[aria-current="page"] { background-color: color-mix(in srgb, --accent-- 12%, --bg--); }
+  .modulex-ust-kisa-etiket-mono[aria-current="page"] .modulex-ust-kisa-etiket-harf { background-color: --accent--; box-shadow: none; color: --accentText--; }
+  .modulex-ust-kisa-etiket-mad { white-space: nowrap; }
+  .modulex-ust-kisa-etiket-uc { display: flex; flex: none; align-items: center; gap: 12px; }
+  @media (max-width: 1024px) {
+    .modulex-ust-kisa-etiket-dizi { flex-wrap: wrap; }
+    .modulex-ust-kisa-etiket-dizi > .modulex-ust-kisa-etiket-nav { order: 3; flex-basis: 100%; }
+    .modulex-ust-kisa-etiket-uc { flex: 0 1 auto; flex-wrap: wrap; justify-content: flex-end; margin-inline-start: auto; }
+    .modulex-ust-kisa-etiket-monolar { justify-content: flex-start; }
+  }
+  @media (max-width: 768px) {
+    .modulex-ust-kisa-etiket-mono { gap: 0; padding-inline-end: 4px; }
+    .modulex-ust-kisa-etiket-mad { display: inline-block; max-width: 0; overflow: hidden; opacity: 0; text-overflow: ellipsis; transition: max-width 0.35s ease, opacity 0.25s ease, margin 0.35s ease; }
+    .modulex-ust-kisa-etiket-mono[aria-current="page"] .modulex-ust-kisa-etiket-mad, .modulex-ust-kisa-etiket-mono:focus-visible .modulex-ust-kisa-etiket-mad, .modulex-ust-kisa-etiket-mono:hover .modulex-ust-kisa-etiket-mad { max-width: 160px; margin-inline: 8px 10px; opacity: 1; }
+    .modulex-ust-kisa-etiket-uc .modulex-ust-kisa-etiket-cta { min-height: 40px; padding-inline: 14px; font-size: 0.9rem; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-kisa-etiket :is(.modulex-ust-kisa-etiket-baslik, .modulex-ust-kisa-etiket-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-kisa-etiket-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ust-kisa-etiket { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ust-kisa-etiket *, .modulex-ust-kisa-etiket *::before, .modulex-ust-kisa-etiket *::after { animation: none !important; transition: none !important; }
+  }
+</style>

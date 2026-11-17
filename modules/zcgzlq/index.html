@@ -1,0 +1,120 @@
+<section class="modulex-zaman-hafiza-kart{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-zaman-hafiza-kart-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* zaman-hafiza-kart — Mevcut kart ızgaraları (zaman-gorsel-kart, zaman-pano, zaman-takvim-yaprak) tüm içeriği aynı anda gösterir; zaman-hafiza-kart oyunlaştırılmış keşiftir: iki yüzlü 3B çevrilen kartlar (ön yıl, arka dönem), açılan kart sayacı ve tamamlanma durumu. */
+  .modulex-zaman-hafiza-kart { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-zaman-hafiza-kart *, .modulex-zaman-hafiza-kart *::before, .modulex-zaman-hafiza-kart *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-zaman-hafiza-kart :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-zaman-hafiza-kart :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-zaman-hafiza-kart :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-zaman-hafiza-kart :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-zaman-hafiza-kart img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-zaman-hafiza-kart) img { height: auto; }
+  .modulex-zaman-hafiza-kart [hidden] { display: none !important; }
+  .modulex-zaman-hafiza-kart :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-zaman-hafiza-kart :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-zaman-hafiza-kart-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-zaman-hafiza-kart-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-zaman-hafiza-kart--bassiz .modulex-zaman-hafiza-kart-bas { display: none; }
+  .modulex-zaman-hafiza-kart-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-zaman-hafiza-kart-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-zaman-hafiza-kart-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-zaman-hafiza-kart-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-zaman-hafiza-kart-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-zaman-hafiza-kart-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-zaman-hafiza-kart-dugme:hover { transform: translateY(-2px); }
+  .modulex-zaman-hafiza-kart-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-zaman-hafiza-kart-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-zaman-hafiza-kart-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-zaman-hafiza-kart-oyun { display: grid; gap: 20px; }
+  .modulex-zaman-hafiza-kart-skor { justify-self: center; display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border: 1.5px solid --cizgi--; border-radius: 999px; background-color: --kartBg--; font-weight: 800; font-variant-numeric: tabular-nums; transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; }
+  .modulex-zaman-hafiza-kart-skor.modulex-zaman-hafiza-kart--tamam { border-color: --accent--; background-color: --accent--; color: --accentText--; }
+  .modulex-zaman-hafiza-kart-kartlar { --ara: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ara); }
+  .modulex-zaman-hafiza-kart-yuva { flex: 0 0 calc((100% - (var(--sut) - 1) * var(--ara)) / var(--sut)); min-width: 0; perspective: 1100px; }
+  .modulex-zaman-hafiza-kart-kart { position: relative; display: grid; gap: 10px; }
+  .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-kart { gap: 0; min-height: 250px; transform-style: preserve-3d; transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-on, .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-arka { grid-area: 1 / 1; backface-visibility: hidden; }
+  .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-arka { transform: rotateY(180deg); }
+  .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-kart.modulex-zaman-hafiza-kart--acik { transform: rotateY(180deg); }
+  .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-kart:not(.modulex-zaman-hafiza-kart--acik):hover { transform: rotateY(14deg); }
+  .modulex-zaman-hafiza-kart-on { position: relative; display: grid; place-content: center; justify-items: center; gap: 8px; min-height: 150px; padding: 30px 20px; overflow: hidden; border-radius: --yuvarlak--; background-color: --vurguBg--; background-image: repeating-linear-gradient(45deg, color-mix(in srgb, --vurguText-- 12%, transparent) 0 8px, transparent 8px 18px); color: --vurguText--; }
+  .modulex-zaman-hafiza-kart-on::after { content: ""; position: absolute; inset: 10px; border: 2px dashed color-mix(in srgb, --vurguText-- 45%, transparent); border-radius: calc(--yuvarlak-- * 0.7); pointer-events: none; }
+  .modulex-zaman-hafiza-kart-sira { position: absolute; inset-block-start: 18px; inset-inline-start: 20px; font-family: var(--mx-font-mono, ui-monospace, monospace); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.16em; }
+  .modulex-zaman-hafiza-kart-oyil { font-size: clamp(2.4rem, 4.2vw, 3.3rem); font-weight: 900; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+  .modulex-zaman-hafiza-kart-oikon { font-size: 34px; }
+  .modulex-zaman-hafiza-kart-tetik { position: absolute; inset-block-end: 16px; inset-inline-end: 16px; z-index: 1; display: inline-grid; place-items: center; width: 42px; height: 42px; border: 0; border-radius: 50%; background-color: --vurguText--; color: --vurguBg--; transition: transform 0.3s ease; }
+  .modulex-zaman-hafiza-kart-tetik:hover { transform: rotate(180deg); }
+  .modulex-zaman-hafiza-kart-arka { position: relative; display: grid; align-content: center; gap: 10px; padding: 26px 22px; border: 2px solid --accent--; border-radius: --yuvarlak--; background-color: --kartBg--; }
+  .modulex-zaman-hafiza-kart-ayil { color: --accentInk--; font-size: 0.9rem; font-weight: 800; letter-spacing: 0.08em; }
+  .modulex-zaman-hafiza-kart-kbaslik { font-size: 1.2rem; font-weight: 760; }
+  .modulex-zaman-hafiza-kart-kmetin { color: --muted--; font-size: 0.95rem; }
+  @media (max-width: 768px) {
+    .modulex-zaman-hafiza-kart-kartlar { --sut: 2 !important; --ara: 12px; }
+    .modulex-zaman-hafiza-kart--js .modulex-zaman-hafiza-kart-kart { min-height: 210px; }
+    .modulex-zaman-hafiza-kart-on { padding: 26px 12px; }
+    .modulex-zaman-hafiza-kart-arka { padding: 18px 14px; }
+    .modulex-zaman-hafiza-kart-oyil { font-size: 1.9rem; }
+    .modulex-zaman-hafiza-kart-kbaslik { font-size: 1.05rem; }
+  }
+  .modulex-zaman-hafiza-kart-bag { color: inherit; text-decoration: none; }
+  .modulex-zaman-hafiza-kart-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-zaman-hafiza-kart-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-zaman-hafiza-kart :is(.modulex-zaman-hafiza-kart-baslik, .modulex-zaman-hafiza-kart-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-zaman-hafiza-kart-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-zaman-hafiza-kart { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-zaman-hafiza-kart *, .modulex-zaman-hafiza-kart *::before, .modulex-zaman-hafiza-kart *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-zaman-hafiza-kart";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const hafizaCevir = (s, P) => {
+        const K = [...s.querySelectorAll("[data-hf-kart]")];
+        if (!K.length) return;
+        s.classList.add(P + "--js");
+        const skor = s.querySelector("[data-hf-skor]");
+        const say = skor && skor.querySelector("[data-hf-say]");
+        let nf = null;
+        try { nf = new Intl.NumberFormat(document.documentElement.lang || undefined); } catch (x) { nf = null; }
+        const f = (v) => (nf ? nf.format(v) : String(v));
+        const acilan = new Set();
+        const yaz = () => {
+          if (say) say.textContent = f(acilan.size) + " / " + f(K.length);
+          if (skor) { skor.hidden = false; skor.classList.toggle(P + "--tamam", acilan.size === K.length); }
+        };
+        const cevir = (k, ac) => {
+          const a = ac == null ? !k.classList.contains(P + "--acik") : ac;
+          k.classList.toggle(P + "--acik", a);
+          const b = k.querySelector("[data-hf-tetik]");
+          if (b) b.setAttribute("aria-expanded", String(a));
+          if (a) acilan.add(k);
+          yaz();
+        };
+        K.forEach((k) => {
+          const b = k.querySelector("[data-hf-tetik]");
+          if (b) b.hidden = false;
+          k.addEventListener("click", (e) => { if (!e.target.closest("a")) cevir(k); });
+        });
+        cevir(K[0], true);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      hafizaCevir(s, P, az);
+    });
+  })();
+</script>

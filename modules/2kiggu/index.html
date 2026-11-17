@@ -1,0 +1,107 @@
+<footer class="modulex-alt-serit-kayan{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-serit-kayan-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</footer>
+
+<style>
+  /* alt-serit-kayan — Footer hareketli bir afiş bandıyla açılır (konser/festival şeridi); bant süs olduğu için ekran okuyucudan gizli, reduced-motion'da durur, RTL'de ters yöne akar. */
+  .modulex-alt-serit-kayan { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-serit-kayan *, .modulex-alt-serit-kayan *::before, .modulex-alt-serit-kayan *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-serit-kayan :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-serit-kayan :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-serit-kayan :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-serit-kayan :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-serit-kayan img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-serit-kayan) img { height: auto; }
+  .modulex-alt-serit-kayan [hidden] { display: none !important; }
+  .modulex-alt-serit-kayan :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-serit-kayan :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-serit-kayan-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-serit-kayan-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-serit-kayan--bassiz .modulex-alt-serit-kayan-bas { display: none; }
+  .modulex-alt-serit-kayan-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-serit-kayan-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-serit-kayan-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-serit-kayan-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-serit-kayan-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-serit-kayan-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-serit-kayan-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-serit-kayan-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-serit-kayan-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-alt-serit-kayan-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-serit-kayan-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-serit-kayan-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-serit-kayan-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-serit-kayan-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-serit-kayan-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-serit-kayan-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-serit-kayan-sayfalar, .modulex-alt-serit-kayan-baglantilar, .modulex-alt-serit-kayan-iletisim, .modulex-alt-serit-kayan-yasal { display: grid; gap: 9px; }
+  .modulex-alt-serit-kayan-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-serit-kayan-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-serit-kayan-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-serit-kayan-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-serit-kayan-saatler { display: grid; gap: 6px; }
+  .modulex-alt-serit-kayan-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-serit-kayan-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-serit-kayan-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-serit-kayan-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-serit-kayan-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-serit-kayan-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-serit-kayan-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-serit-kayan-dil:empty { display: none; }
+  .modulex-alt-serit-kayan-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-serit-kayan-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-serit-kayan-bulten { display: grid; gap: 8px; }
+  .modulex-alt-serit-kayan-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-serit-kayan-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-serit-kayan-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-serit-kayan-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-serit-kayan-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-serit-kayan-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-serit-kayan-nl-durum:empty { display: none; }
+  .modulex-alt-serit-kayan-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-serit-kayan-nl-metin { color: --muted--; }
+
+  .modulex-alt-serit-kayan.modulex-alt-serit-kayan { padding-inline: 0; }
+  .modulex-alt-serit-kayan-ic { max-width: none; }
+  .modulex-alt-serit-kayan-sk-bant { overflow: hidden; padding-block: 16px; margin-block-end: clamp(36px, 5vw, 60px); border-block: 1px solid --cizgi--; }
+  .modulex-alt-serit-kayan-sk-akis { display: flex; width: max-content; animation: modulex-alt-serit-kayan-sk-kay 40s linear infinite; }
+  .modulex-alt-serit-kayan-sk-bant:hover .modulex-alt-serit-kayan-sk-akis { animation-play-state: paused; }
+  [dir="rtl"] .modulex-alt-serit-kayan-sk-akis { animation-name: modulex-alt-serit-kayan-sk-kay-rtl; }
+  @keyframes modulex-alt-serit-kayan-sk-kay { to { transform: translateX(-50%); } }
+  @keyframes modulex-alt-serit-kayan-sk-kay-rtl { to { transform: translateX(50%); } }
+  .modulex-alt-serit-kayan-sk-yarim { display: flex; flex: none; }
+  .modulex-alt-serit-kayan-sk-oge { display: inline-flex; align-items: center; gap: 0.45em; padding-inline-end: 0.45em; font-family: var(--mx-font-heading, inherit); font-size: clamp(2.4rem, 7vw, 5.6rem); font-weight: 900; letter-spacing: -0.03em; line-height: 1.05; white-space: nowrap; text-transform: uppercase; }
+  .modulex-alt-serit-kayan-sk-oge::after { content: ""; flex: none; width: 0.3em; height: 0.3em; border-radius: 50%; background: --accent--; }
+  .modulex-alt-serit-kayan-sk-oge:nth-child(even) { color: transparent; -webkit-text-stroke: 1.5px --accent--; }
+  .modulex-alt-serit-kayan-sk-sahne { max-width: --max--; margin-inline: auto; padding-inline: 20px; }
+  .modulex-alt-serit-kayan-sk-izgara { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr)); gap: 32px; }
+  .modulex-alt-serit-kayan-sk-marka { display: grid; align-content: start; gap: 16px; }
+  .modulex-alt-serit-kayan-sk-dip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 26px; margin-block-start: 44px; padding-block-start: 22px; border-block-start: 1px solid --cizgi--; }
+  .modulex-alt-serit-kayan-sk-dip .modulex-alt-serit-kayan-telif { margin-inline-start: auto; }
+  .modulex-alt-serit-kayan-sk-yasal { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.9rem; }
+  @media (max-width: 1024px) {
+    .modulex-alt-serit-kayan-sk-izgara { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .modulex-alt-serit-kayan-sk-marka { grid-column: 1 / -1; }
+  }
+  @media (max-width: 768px) {
+    .modulex-alt-serit-kayan-sk-izgara { grid-template-columns: minmax(0, 1fr); }
+    .modulex-alt-serit-kayan-sk-sahne { padding-inline: 16px; }
+    .modulex-alt-serit-kayan-sk-dip .modulex-alt-serit-kayan-telif { margin-inline-start: 0; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-serit-kayan :is(.modulex-alt-serit-kayan-baslik, .modulex-alt-serit-kayan-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-serit-kayan-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-alt-serit-kayan { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-alt-serit-kayan *, .modulex-alt-serit-kayan *::before, .modulex-alt-serit-kayan *::after { animation: none !important; transition: none !important; }
+  }
+</style>

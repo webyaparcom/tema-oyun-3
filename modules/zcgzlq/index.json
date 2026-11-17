@@ -1,0 +1,51 @@
+{
+  "name": "Zaman Hafıza Kartı — çevrilen kartlarda yıl ve dönem",
+  "description": "Hafıza oyunu ızgarası: her kartın ön yüzünde desenli zeminde dev yıl, ikon ve sıra no; dokununca/Enter ile 3B döner ve arka yüzde başlık ile metin görünür. Üstte «açılan / toplam» sayacı (sayfa dilinde), hepsi açılınca vurgu rengine döner; ilk kart açık başlar, üzerine gelince kapalı kart hafifçe kıpırdar. JS yokken iki yüz alt alta, içerik tam. Mevcut kart ızgaraları (zaman-gorsel-kart, zaman-pano, zaman-takvim-yaprak) tüm içeriği aynı anda gösterir; zaman-hafiza-kart oyunlaştırılmış keşiftir: iki yüzlü 3B çevrilen kartlar (ön yıl, arka dönem), açılan kart sayacı ve tamamlanma durumu. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "style",
+  "category": "timeline",
+  "subCategory": "memory-flip",
+  "tags": [
+    "timeline",
+    "flip",
+    "memory",
+    "game",
+    "interactive",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+      "baslik": "dil sözlüğü (zorunlu)",
+      "metin": "dil sözlüğü",
+      "ikon": "Material Symbols adı",
+      "img": "görsel yolu (destekleyen yerleşimde)",
+      "url": "iç/dış bağlantı"
+    }
+  }
+}

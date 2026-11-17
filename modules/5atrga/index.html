@@ -1,0 +1,119 @@
+<section class="modulex-ekip-oyuncu-karti{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ekip-oyuncu-karti-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* ekip-oyuncu-karti — Sayısal profil iskeleti: diğer ekip modülleri kişiyi metinle anlatırken burada puan rozeti + ölçülü istatistik çubukları (dl) ile oyun/kulüp dilinde sunar; kesik köşeli kart biçimi ve eğilme + parıltı hareketi ailede yok. */
+  .modulex-ekip-oyuncu-karti { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ekip-oyuncu-karti *, .modulex-ekip-oyuncu-karti *::before, .modulex-ekip-oyuncu-karti *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ekip-oyuncu-karti :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ekip-oyuncu-karti :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ekip-oyuncu-karti :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ekip-oyuncu-karti :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ekip-oyuncu-karti img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ekip-oyuncu-karti) img { height: auto; }
+  .modulex-ekip-oyuncu-karti [hidden] { display: none !important; }
+  .modulex-ekip-oyuncu-karti :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ekip-oyuncu-karti :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ekip-oyuncu-karti-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ekip-oyuncu-karti-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ekip-oyuncu-karti--bassiz .modulex-ekip-oyuncu-karti-bas { display: none; }
+  .modulex-ekip-oyuncu-karti-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ekip-oyuncu-karti-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ekip-oyuncu-karti-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ekip-oyuncu-karti-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-ekip-oyuncu-karti-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ekip-oyuncu-karti-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ekip-oyuncu-karti-dugme:hover { transform: translateY(-2px); }
+  .modulex-ekip-oyuncu-karti-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ekip-oyuncu-karti-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ekip-oyuncu-karti-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ekip-oyuncu-karti-takim { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px 22px; perspective: 1200px; }
+  .modulex-ekip-oyuncu-karti-kart { flex: 0 1 268px; min-width: 0; padding: 3px; background-image: linear-gradient(160deg, --accent--, transparent 62%); clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 30px 100%, 0 calc(100% - 30px)); transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  [dir="rtl"] .modulex-ekip-oyuncu-karti-kart, [dir="rtl"] .modulex-ekip-oyuncu-karti-govde { clip-path: polygon(30px 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 30px); }
+  .modulex-ekip-oyuncu-karti-kart:hover { transform: rotateX(5deg) rotateY(-7deg) translateY(-6px); }
+  .modulex-ekip-oyuncu-karti-govde { position: relative; display: grid; align-content: start; block-size: 100%; overflow: hidden; background-color: color-mix(in srgb, --text-- 6%, --bg--); clip-path: polygon(0 0, calc(100% - 29px) 0, 100% 29px, 100% 100%, 29px 100%, 0 calc(100% - 29px)); }
+  .modulex-ekip-oyuncu-karti-govde::after { content: ""; position: absolute; inset: 0; background-image: linear-gradient(115deg, transparent 35%, color-mix(in srgb, --text-- 16%, transparent) 50%, transparent 65%); translate: -120% 0; transition: translate 0.9s ease; pointer-events: none; }
+  .modulex-ekip-oyuncu-karti-kart:hover .modulex-ekip-oyuncu-karti-govde::after { translate: 120% 0; }
+  .modulex-ekip-oyuncu-karti-tepe { position: relative; display: grid; }
+  .modulex-ekip-oyuncu-karti-foto { grid-area: 1 / 1; width: 100%; aspect-ratio: 1; object-fit: cover; object-position: 50% 22%; font-size: 3.4rem; -webkit-mask-image: linear-gradient(to bottom, black 64%, transparent); mask-image: linear-gradient(to bottom, black 64%, transparent); }
+  .modulex-ekip-oyuncu-karti-puan { grid-area: 1 / 1; z-index: 1; align-self: start; justify-self: start; display: grid; justify-items: center; gap: 2px; margin: 14px; padding: 8px 10px; border-radius: 12px; background-color: color-mix(in srgb, --bg-- 86%, transparent); line-height: 1; }
+  .modulex-ekip-oyuncu-karti-pdeger { color: --accentInk--; font-size: 2.3rem; font-weight: 900; font-variant-numeric: tabular-nums; }
+  .modulex-ekip-oyuncu-karti-kod { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ekip-oyuncu-karti-levha { position: relative; z-index: 1; display: grid; justify-items: center; gap: 2px; margin-block-start: -34px; padding: 10px 16px 12px; text-align: center; }
+  .modulex-ekip-oyuncu-karti-levha .modulex-ekip-oyuncu-karti-ad { font-size: 1.22rem; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase; }
+  .modulex-ekip-oyuncu-karti-levha .modulex-ekip-oyuncu-karti-unvan { font-size: 0.82rem; }
+  .modulex-ekip-oyuncu-karti-statlar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin-inline: 16px; padding-block: 14px 22px; border-block-start: 1px solid --cizgi--; }
+  .modulex-ekip-oyuncu-karti-stat { display: grid; gap: 4px; }
+  .modulex-ekip-oyuncu-karti-stat dt { color: --muted--; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+  .modulex-ekip-oyuncu-karti-stat dd { display: grid; grid-template-columns: 2.2em minmax(0, 1fr); align-items: center; gap: 8px; }
+  .modulex-ekip-oyuncu-karti-sdeger { font-size: 1.05rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-ekip-oyuncu-karti-cizik { display: block; block-size: 6px; overflow: hidden; border-radius: 999px; background-color: color-mix(in srgb, --text-- 14%, transparent); }
+  .modulex-ekip-oyuncu-karti-cizik::before { content: ""; display: block; inline-size: calc(var(--v) * 1%); block-size: 100%; border-radius: inherit; background-color: --accent--; transform-origin: 0 50%; transition: transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1); transition-delay: calc(var(--i, 0) * 90ms + 200ms); }
+  [dir="rtl"] .modulex-ekip-oyuncu-karti-cizik::before { transform-origin: 100% 50%; }
+  .modulex-ekip-oyuncu-karti--hazir:not(.modulex-ekip-oyuncu-karti--gor) .modulex-ekip-oyuncu-karti-cizik::before { transform: scaleX(0); }
+  .modulex-ekip-oyuncu-karti-tanit { padding: 4px 18px 22px; text-align: center; }
+  .modulex-ekip-oyuncu-karti-tanit .modulex-ekip-oyuncu-karti-bio { font-size: 0.88rem; }
+  @media (max-width: 768px) {
+    .modulex-ekip-oyuncu-karti-takim { gap: 16px 12px; }
+    .modulex-ekip-oyuncu-karti-kart { flex-basis: calc(50% - 6px); }
+    .modulex-ekip-oyuncu-karti-kart:hover { transform: none; }
+    .modulex-ekip-oyuncu-karti-puan { margin: 8px; padding: 6px 7px; }
+    .modulex-ekip-oyuncu-karti-pdeger { font-size: 1.5rem; }
+    .modulex-ekip-oyuncu-karti-levha { margin-block-start: -24px; padding: 8px 8px 10px; }
+    .modulex-ekip-oyuncu-karti-levha .modulex-ekip-oyuncu-karti-ad { font-size: 0.92rem; letter-spacing: 0.02em; }
+    .modulex-ekip-oyuncu-karti-statlar { grid-template-columns: minmax(0, 1fr); gap: 6px; margin-inline: 10px; padding-block: 10px 18px; }
+    .modulex-ekip-oyuncu-karti-stat dd { grid-template-columns: 2em minmax(0, 1fr); gap: 6px; }
+  }
+  /* img width/height öznitelikleri CSS yüksekliği olur — aspect-ratio'nun çalışması için yükseklik auto (modül kuralı ezebilir) */
+  :where(.modulex-ekip-oyuncu-karti) img { height: auto; }
+  .modulex-ekip-oyuncu-karti-foto { min-width: 0; }
+  .modulex-ekip-oyuncu-karti-bag { color: inherit; text-decoration: none; }
+  .modulex-ekip-oyuncu-karti-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-ekip-oyuncu-karti-harf { display: grid; place-items: center; background-color: --vurguBg--; color: --vurguText--; font-weight: 800; letter-spacing: 0.02em; }
+  .modulex-ekip-oyuncu-karti-sosyal { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-ekip-oyuncu-karti-slink { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 40px; min-height: 40px; padding: 0 10px; border: 1px solid --cizgi--; border-radius: 999px; color: inherit; font-size: 0.88rem; text-decoration: none; transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease; }
+  .modulex-ekip-oyuncu-karti-slink:hover { background-color: --accent--; border-color: --accent--; color: --accentText--; }
+  .modulex-ekip-oyuncu-karti-slink .material-symbols-outlined { font-size: 19px; }
+  .modulex-ekip-oyuncu-karti-syazi { overflow-wrap: anywhere; }
+  .modulex-ekip-oyuncu-karti-ad { font-size: 1.12rem; font-weight: 750; line-height: 1.3; }
+  .modulex-ekip-oyuncu-karti-unvan { color: --accentInk--; font-size: 0.92rem; font-weight: 650; }
+  .modulex-ekip-oyuncu-karti-bio { color: --muted--; font-size: 0.95rem; line-height: 1.65; }
+  .modulex-ekip-oyuncu-karti-bolum { color: --muted--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ekip-oyuncu-karti :is(.modulex-ekip-oyuncu-karti-baslik, .modulex-ekip-oyuncu-karti-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ekip-oyuncu-karti-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ekip-oyuncu-karti { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ekip-oyuncu-karti *, .modulex-ekip-oyuncu-karti *::before, .modulex-ekip-oyuncu-karti *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ekip-oyuncu-karti";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const gozlem = (s, P, az) => {
+        const gor = () => s.classList.add(P + "--gor");
+        s.classList.add(P + "--hazir");
+        if (az || !("IntersectionObserver" in window)) { gor(); return; }
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { gor(); io.disconnect(); } });
+        }, { threshold: 0.15 });
+        io.observe(s);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      gozlem(s, P, az);
+    });
+  })();
+</script>

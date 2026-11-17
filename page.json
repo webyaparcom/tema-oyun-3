@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "id": "z4igl37g1f",
+      "name": {
+        "tr": "Oyunlar",
+        "en": "Games",
+        "ar": "ألعابنا"
+      },
+      "description": {
+        "tr": "Oyun destesi ve stüdyonun yılları (kurgusal).",
+        "en": "The game deck and the studio’s years (fictional).",
+        "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي)."
+      },
+      "path": "hizmetler",
+      "icon": "sports_esports",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fr8h74",
+          "zcgzlq"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Ekip",
+        "en": "Team",
+        "ar": "فريقنا"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "5atrga",
+          "slpx1u"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Oyuncu kartlarıyla ekip ve yapım adımları (kurgusal).",
+        "en": "The team as player cards and the making steps (fictional).",
+        "ar": "الفريق في بطاقات لاعبين وخطوات الصنع (افتراضي)."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "تواصل"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 2,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "ystp1x",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

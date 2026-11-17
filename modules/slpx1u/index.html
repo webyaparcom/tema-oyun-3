@@ -1,0 +1,91 @@
+<section class="modulex-surec-cevir-kart{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-surec-cevir-kart-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* surec-cevir-kart — Bilgi iki katmanlıdır (çevrilen kart): ilk bakışta yalnız sıra ve başlık, ayrıntı etkileşimle; oyunsu ve kompakt. */
+  .modulex-surec-cevir-kart { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-surec-cevir-kart *, .modulex-surec-cevir-kart *::before, .modulex-surec-cevir-kart *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-surec-cevir-kart :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-surec-cevir-kart :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-surec-cevir-kart :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-surec-cevir-kart :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-surec-cevir-kart img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-surec-cevir-kart) img { height: auto; }
+  .modulex-surec-cevir-kart [hidden] { display: none !important; }
+  .modulex-surec-cevir-kart :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-surec-cevir-kart :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-surec-cevir-kart-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-surec-cevir-kart-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-surec-cevir-kart--bassiz .modulex-surec-cevir-kart-bas { display: none; }
+  .modulex-surec-cevir-kart-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-surec-cevir-kart-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-surec-cevir-kart-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-surec-cevir-kart-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-surec-cevir-kart-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-surec-cevir-kart-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-surec-cevir-kart-dugme:hover { transform: translateY(-2px); }
+  .modulex-surec-cevir-kart-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-surec-cevir-kart-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-surec-cevir-kart-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-surec-cevir-kart-izgara { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 20px; }
+  .modulex-surec-cevir-kart-hucre { perspective: 1200px; }
+  .modulex-surec-cevir-kart-kart { position: relative; display: grid; min-height: 280px; border-radius: --yuvarlak--; transform-style: preserve-3d; transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .modulex-surec-cevir-kart-yuz { grid-area: 1 / 1; display: grid; align-content: start; gap: 10px; padding: 26px; border-radius: --yuvarlak--; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+  .modulex-surec-cevir-kart-on { grid-template-rows: auto auto auto minmax(0, 1fr); background: --vurguBg--; color: --vurguText--; }
+  .modulex-surec-cevir-kart-arka { align-content: center; border: 1px solid --cizgi--; background: --bg--; color: --text--; transform: rotateY(180deg); }
+  .modulex-surec-cevir-kart-kart.modulex-surec-cevir-kart--acik { transform: rotateY(180deg); }
+  @media (hover: hover) { .modulex-surec-cevir-kart-hucre:hover .modulex-surec-cevir-kart-kart { transform: rotateY(180deg); } }
+  .modulex-surec-cevir-kart-no { font-size: clamp(3rem, 6vw, 4.4rem); font-weight: 900; line-height: 0.9; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+  .modulex-surec-cevir-kart-ikon { font-size: 30px; }
+  .modulex-surec-cevir-kart-kbaslik { font-size: 1.2rem; font-weight: 750; }
+  .modulex-surec-cevir-kart-dondur { align-self: end; font-size: 22px; opacity: 0.75; }
+  .modulex-surec-cevir-kart-kmetin { color: --muted--; font-size: 1rem; line-height: 1.7; }
+  .modulex-surec-cevir-kart-arka .modulex-surec-cevir-kart-etiket { color: --text--; }
+  .modulex-surec-cevir-kart-arka .modulex-surec-cevir-kart-sure { border: 1px solid --cizgi--; background: transparent; }
+  .modulex-surec-cevir-kart-arka .modulex-surec-cevir-kart-sure .material-symbols-outlined { color: --text--; }
+  @media (max-width: 768px) {
+    .modulex-surec-cevir-kart-kart { min-height: 230px; }
+  }
+  .modulex-surec-cevir-kart-sure { display: inline-flex; align-items: center; gap: 6px; justify-self: start; width: fit-content; padding: 4px 12px; border-radius: 999px; background: color-mix(in srgb, --accent-- 12%, transparent); color: --text--; font-size: 0.85rem; font-weight: 600; }
+  .modulex-surec-cevir-kart-sure .material-symbols-outlined { font-size: 18px; color: --accentInk--; }
+  .modulex-surec-cevir-kart-etiket { color: --accentInk--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  .modulex-surec-cevir-kart-bag { color: inherit; text-decoration: none; }
+  .modulex-surec-cevir-kart-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-surec-cevir-kart-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-surec-cevir-kart :is(.modulex-surec-cevir-kart-baslik, .modulex-surec-cevir-kart-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-surec-cevir-kart-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-surec-cevir-kart { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-surec-cevir-kart *, .modulex-surec-cevir-kart *::before, .modulex-surec-cevir-kart *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-surec-cevir-kart";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const cevir = (s, P) => {
+        s.querySelectorAll("[data-cevir]").forEach((k) => {
+          const tog = () => { const a = k.classList.toggle(P + "--acik"); k.setAttribute("aria-expanded", String(a)); };
+          k.addEventListener("click", (e) => { if (!e.target.closest("a")) tog(); });
+          k.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tog(); } });
+        });
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      cevir(s, P, az);
+    });
+  })();
+</script>

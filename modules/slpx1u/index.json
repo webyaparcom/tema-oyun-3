@@ -1,0 +1,51 @@
+{
+  "name": "Süreç Çevir Kart — dokununca dönen adım kartları",
+  "description": "Vurgu zeminde adım kartları: ön yüzde dev numara, ikon ve başlık; üzerine gelince ya da dokununca kart döner, arka yüzde açıklama ve süre. Bilgi iki katmanlıdır (çevrilen kart): ilk bakışta yalnız sıra ve başlık, ayrıntı etkileşimle; oyunsu ve kompakt. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "flip",
+  "category": "surec",
+  "subCategory": "flip",
+  "tags": [
+    "surec",
+    "flip",
+    "interactive",
+    "cards",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-primary, #2563eb)",
+    "text": "var(--mx-site-primary-contrast, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 10%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 28%, transparent)",
+    "accent": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentInk": "var(--mx-site-primary-contrast, #ffffff)",
+    "accentText": "var(--mx-site-primary, #2563eb)",
+    "vurguBg": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguText": "var(--mx-site-primary, #2563eb)",
+    "bgcolor": "var(--mx-site-primary, #2563eb)",
+    "color": "var(--mx-site-primary-contrast, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "baslik": "adım adı — dil sözlüğü (zorunlu)",
+      "metin": "adımın açıklaması — dil sözlüğü",
+      "ikon": "Material Symbols adı",
+      "sure": "süre / takvim (ör. «1 hafta») — dil sözlüğü",
+      "no": "elle numara (yoksa 01, 02 …)",
+      "img": "görsel yolu (destekleyen yerleşimde)",
+      "url": "iç/dış bağlantı"
+    }
+  }
+}

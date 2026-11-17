@@ -1,0 +1,55 @@
+{
+  "name": "Ekip Oyuncu Kartı — puanlı, istatistik çubuklu koleksiyon kartları",
+  "description": "Koyu zeminde köşeleri kesik koleksiyon kartları: köşede büyük puan ve kısa kod rozeti, ortada solan portre, altında büyük harfli ad levhası ve iki sütun istatistik (ad · değer · dolan çubuk). Kart görününce çubuklar dolar; üzerine gelince kart 3B eğilir, üzerinden parıltı geçer. İstatistik yoksa tanıtım basılır. Veri ek alanı: `puan`, `kod`, `istatistik: [{ ad, deger (0–100) }]`. Sayısal profil iskeleti: diğer ekip modülleri kişiyi metinle anlatırken burada puan rozeti + ölçülü istatistik çubukları (dl) ile oyun/kulüp dilinde sunar; kesik köşeli kart biçimi ve eğilme + parıltı hareketi ailede yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "sports_esports",
+  "category": "team",
+  "subCategory": "player-card",
+  "tags": [
+    "team",
+    "player-card",
+    "stats",
+    "rating",
+    "game",
+    "tilt",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+      "unvan": "görev / unvan (dil sözlüğü)",
+      "metin": "kısa tanıtım (dil sözlüğü)",
+      "img": "portre görseli (yoksa baş harfler)",
+      "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+      "eposta": "e-posta (mailto)",
+      "telefon": "telefon (tel:)",
+      "url": "profil sayfası bağlantısı",
+      "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+    }
+  }
+}

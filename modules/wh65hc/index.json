@@ -1,0 +1,62 @@
+{
+  "name": "Açılış Burç Çarkı — yörüngede dizilen maddeler, dönen zodyak halkası",
+  "description": "Gece zemininde bir yanda üst etiket, h1, metin, düğmeler ve yıldız rozeti; diğer yanda dairesel çark: merkezde yuvarlak görsel, çevresinde 12 bölmeli yavaşça dönen zodyak halkası ve yıldız noktaları; maddeler (ikon · değer · metin) çarkın çevresine eşit açılarla yörünge kartları olarak dizilir ve girişte merkezden yerlerine açılır. Üzerine gelinen kart büyür. acilis-vurgu-daire tek dekoratif daire kullanır, acilis-bento/mozaik maddeleri dik ızgaraya dizer; bu modül maddeleri kutupsal koordinatla (açı = 360° / n) bir yörüngeye yerleştirir, merkez görsel + dönen 12 bölmeli halka ile dairesel iskelet kurar. Başlık h1, ilk görsel eager. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "auto_awesome",
+  "category": "hero",
+  "subCategory": "orbit-wheel",
+  "tags": [
+    "hero",
+    "orbit",
+    "circle",
+    "zodiac",
+    "night",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "img": "",
+    "img2": "",
+    "video": "",
+    "poster": "",
+    "alt": "",
+    "cta_ad": "",
+    "cta_url": "",
+    "cta2_ad": "",
+    "cta2_url": "",
+    "rozet_ikon": "",
+    "rozet_deger": "",
+    "rozet_metin": "",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data",
+    "alanlar": {
+      "ikon": "madde ikonu (Material Symbols)",
+      "deger": "sayı/değer (ör. 1.200+, dil sözlüğü olabilir)",
+      "metin": "madde metni (dil sözlüğü)",
+      "img": "madde görseli (mozaik yerleşimlerde)",
+      "url": "madde bağlantısı"
+    }
+  }
+}
