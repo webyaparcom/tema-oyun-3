@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Fırıldak Oyun Evi: Eskişehir’de ailece oynanan bulmaca, kelime, renk ve ritim oyunları tasarlayan küçük mobil oyun stüdyosu. Demo site; içerik kurgusaldır.",
+    "en": "Firildak Game House: a small mobile game studio in Eskisehir designing puzzle, word, colour and rhythm games for families to play together. Demo site; content is fictional.",
+    "ar": "بيت فِرِلداك للألعاب: استوديو صغير لألعاب الجوال في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع تلعبها العائلة معًا. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "mobil oyun stüdyosu, bulmaca oyunu, kelime oyunu, aile oyunu, eskişehir",
+    "en": "mobile game studio, puzzle game, word game, family game, eskisehir",
+    "ar": "استوديو ألعاب جوال، لعبة ألغاز، لعبة كلمات، لعبة عائلية، إسكي شهير"
+  },
+  "category": "Kurumsal",
+  "name": "Fırıldak",
+  "domain": "oyun-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "nunito",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#7A52E6",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "11px",
+    "--mx-radius-md": "18px",
+    "--mx-radius-lg": "25px",
+    "--mx-radius-xl": "34px"
+  },
+  "icon": "icon.png"
+}

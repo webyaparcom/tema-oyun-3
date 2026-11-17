@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Ekip",
+    "en": "Team",
+    "ar": "فريقنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "5atrga",
+      "slpx1u"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Oyuncu kartlarıyla ekip ve yapım adımları (kurgusal).",
+    "en": "The team as player cards and the making steps (fictional).",
+    "ar": "الفريق في بطاقات لاعبين وخطوات الصنع (افتراضي)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Ekip",
+    "en": "Team",
+    "ar": "فريقنا"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T22:45:01.094Z",
+  "date": "2026-10-30"
+}

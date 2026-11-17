@@ -1,0 +1,40 @@
+{
+  "id": "z4igl37g1f",
+  "name": {
+    "tr": "Oyunlar",
+    "en": "Games",
+    "ar": "ألعابنا"
+  },
+  "description": {
+    "tr": "Oyun destesi ve stüdyonun yılları (kurgusal).",
+    "en": "The game deck and the studio’s years (fictional).",
+    "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي)."
+  },
+  "keyword": {
+    "tr": "mobil oyun, bulmaca, kelime oyunu",
+    "en": "mobile game, puzzle, word game",
+    "ar": "لعبة جوال، ألغاز، لعبة كلمات"
+  },
+  "path": "hizmetler",
+  "icon": "sports_esports",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "fr8h74",
+      "zcgzlq"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Oyunlar",
+    "en": "Games",
+    "ar": "ألعابنا"
+  },
+  "date": "2026-11-16T22:41:13.281Z",
+  "update": "2026-11-16T22:45:01.079Z"
+}
