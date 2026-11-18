@@ -14,28 +14,38 @@
         "ariaLabel": {
           "tr": "Demo site uyarısı",
           "en": "Demo site notice",
-          "ar": "تنبيه الموقع التجريبي"
+          "ar": "تنبيه الموقع التجريبي",
+          "de": "Hinweis zur Demo-Website",
+          "ru": "Предупреждение о демонстрационном сайте"
         },
         "text": {
           "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
           "en": "This is a demo site — the content is fictional and no payment is taken",
-          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات",
+          "de": "Dies ist eine Demo-Website — die Inhalte sind fiktiv, es wird keine Zahlung entgegengenommen",
+          "ru": "Это демо-сайт — контент вымышленный, оплата не принимается"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "girisHref": "",
         "girisText": {
           "tr": "Üye Girişi",
           "en": "Login",
-          "ar": "تسجيل الدخول"
+          "ar": "تسجيل الدخول",
+          "de": "Mitglieder-Login",
+          "ru": "Вход для участников"
         },
         "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
@@ -78,28 +88,38 @@
         "badge": {
           "tr": "Emlak",
           "en": "Real estate",
-          "ar": "عقارات"
+          "ar": "عقارات",
+          "de": "Immobilien",
+          "ru": "Недвижимость"
         },
         "title": {
           "tr": "Hayalinizdeki yeri birlikte bulalım",
           "en": "Let's find your dream home together",
-          "ar": "لنجد معًا المكان الذي تحلم به"
+          "ar": "لنجد معًا المكان الذي تحلم به",
+          "de": "Finden wir gemeinsam Ihren Traumort",
+          "ru": "Давайте вместе найдём место вашей мечты"
         },
         "description": {
           "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
           "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
-          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان.",
+          "de": "Ausgewählte Immobilien zum Kauf und zur Miete, transparenter Ablauf, bei jedem Inserat die Nummer der Vollmacht.",
+          "ru": "Избранный портфель недвижимости на продажу и в аренду, прозрачный процесс, номер разрешительного документа в каждом объявлении."
         },
         "btn1Text": {
           "tr": "İlanları gör",
           "en": "Browse listings",
-          "ar": "تصفح الإعلانات"
+          "ar": "تصفح الإعلانات",
+          "de": "Anzeigen durchsuchen",
+          "ru": "Просмотреть объявления"
         },
         "btn1Url": "ilanlar",
         "btn2Text": {
           "tr": "Değerleme",
           "en": "Valuation",
-          "ar": "التقييم"
+          "ar": "التقييم",
+          "de": "Bewertung",
+          "ru": "Оценка"
         },
         "btn2Url": "iletisim"
       },
@@ -129,127 +149,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -289,62 +359,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -361,27 +455,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -390,7 +494,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -401,12 +507,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -415,7 +525,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -423,7 +535,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -434,12 +548,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -451,7 +569,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -462,12 +582,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -479,7 +603,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -490,12 +616,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -507,7 +637,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -518,12 +650,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -535,7 +671,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -546,12 +684,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -563,7 +705,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -574,12 +718,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -591,7 +739,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -602,12 +752,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -642,7 +796,9 @@
           "label": {
             "tr": "Tamamlanan Proje",
             "en": "Completed Projects",
-            "ar": "مشروع منجز"
+            "ar": "مشروع منجز",
+            "de": "Abgeschlossene Projekte",
+            "ru": "Завершённые проекты"
           },
           "icon": "task_alt"
         },
@@ -652,7 +808,9 @@
           "label": {
             "tr": "Mutlu Müşteri",
             "en": "Happy Customers",
-            "ar": "عميل سعيد"
+            "ar": "عميل سعيد",
+            "de": "Zufriedene Kunden",
+            "ru": "Довольные клиенты"
           },
           "icon": "sentiment_satisfied"
         },
@@ -662,7 +820,9 @@
           "label": {
             "tr": "Yıllık Deneyim",
             "en": "Years of Experience",
-            "ar": "سنوات من الخبرة"
+            "ar": "سنوات من الخبرة",
+            "de": "Jahre Erfahrung",
+            "ru": "Лет опыта"
           },
           "icon": "workspace_premium"
         },
@@ -672,7 +832,9 @@
           "label": {
             "tr": "Destek",
             "en": "Support",
-            "ar": "الدعم"
+            "ar": "الدعم",
+            "de": "Support",
+            "ru": "Поддержка"
           },
           "icon": "support_agent"
         }
@@ -696,17 +858,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Danışmanlarımız",
           "en": "Our advisors",
-          "ar": "مستشارونا"
+          "ar": "مستشارونا",
+          "de": "Unsere Berater",
+          "ru": "Наши консультанты"
         },
         "description": {
           "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
           "en": "Our experienced team is here to add value to your projects.",
-          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك.",
+          "de": "Unser erfahrenes Team ist hier, um Ihren Projekten Mehrwert zu verleihen.",
+          "ru": "Наша опытная команда готова принести пользу вашим проектам."
         },
         "accentText": "#ffffff"
       },
@@ -718,12 +886,16 @@
           "role": {
             "tr": "Kurucu / CEO",
             "en": "Founder / CEO",
-            "ar": "المؤسس / الرئيس التنفيذي"
+            "ar": "المؤسس / الرئيس التنفيذي",
+            "de": "Gründer / CEO",
+            "ru": "Основатель / CEO"
           },
           "bio": {
             "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
             "en": "Strategy and management with 10+ years of industry experience.",
-            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع.",
+            "de": "Strategie und Management mit über 10 Jahren Branchenerfahrung.",
+            "ru": "Стратегия и управление с опытом работы в отрасли более 10 лет."
           },
           "img": ""
         },
@@ -732,12 +904,16 @@
           "role": {
             "tr": "Tasarım Direktörü",
             "en": "Design Director",
-            "ar": "مدير التصميم"
+            "ar": "مدير التصميم",
+            "de": "Design Director",
+            "ru": "Арт-директор"
           },
           "bio": {
             "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
             "en": "Brand identity and user experience design.",
-            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم.",
+            "de": "Markenidentität und Gestaltung der Nutzererfahrung.",
+            "ru": "Фирменный стиль и дизайн пользовательского опыта."
           },
           "img": ""
         },
@@ -746,12 +922,16 @@
           "role": {
             "tr": "Yazılım Geliştirici",
             "en": "Software Developer",
-            "ar": "مطوّر برمجيات"
+            "ar": "مطوّر برمجيات",
+            "de": "Softwareentwickler",
+            "ru": "Разработчик программного обеспечения"
           },
           "bio": {
             "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
             "en": "Scalable solutions with modern web technologies.",
-            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة.",
+            "de": "Skalierbare Lösungen mit modernen Webtechnologien.",
+            "ru": "Масштабируемые решения на современных веб-технологиях."
           },
           "img": ""
         }
@@ -796,7 +976,9 @@
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
-          "ar": "تواصل معنا"
+          "ar": "تواصل معنا",
+          "de": "Kontaktieren Sie uns",
+          "ru": "Свяжитесь с нами"
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
@@ -850,33 +1032,45 @@
         "name": {
           "tr": "Hakkımızda",
           "en": "About us",
-          "ar": "من نحن"
+          "ar": "من نحن",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "description": {
           "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
           "en": "This page is a theme sample; its content is filled in during demo production.",
-          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي.",
+          "de": "Diese Seite ist ein Theme-Beispiel; der Inhalt wird bei der Demo-Erstellung befüllt.",
+          "ru": "Эта страница — пример темы; содержание заполняется при создании демо."
         },
         "name2": {
           "tr": "Vizyonumuz",
           "en": "Our Vision",
-          "ar": "رؤيتنا"
+          "ar": "رؤيتنا",
+          "de": "Unsere Vision",
+          "ru": "Наше видение"
         },
         "spot2": {
           "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
           "en": "To lead our industry with innovative approaches.",
-          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة.",
+          "de": "In unserer Branche mit innovativen Ansätzen führend zu sein.",
+          "ru": "Быть лидером в нашей отрасли благодаря инновационным подходам."
         },
         "icon2": "visibility",
         "name3": {
           "tr": "Misyonumuz",
           "en": "Our Mission",
-          "ar": "مهمتنا"
+          "ar": "مهمتنا",
+          "de": "Unsere Mission",
+          "ru": "Наша миссия"
         },
         "spot3": {
           "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
           "en": "Deliver needed solutions quickly and transparently.",
-          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية.",
+          "de": "Die benötigten Lösungen schnell und transparent bereitstellen.",
+          "ru": "Быстро и прозрачно предлагать необходимые решения."
         },
         "icon3": "flag",
         "img": "index.jpg",
@@ -887,7 +1081,9 @@
         "title": {
           "tr": "Kurumsal",
           "en": "Corporate",
-          "ar": "المؤسسة"
+          "ar": "المؤسسة",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "stil": ""
       },
@@ -917,127 +1113,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -1077,62 +1323,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -1149,27 +1419,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -1178,7 +1458,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -1189,12 +1471,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -1203,7 +1489,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -1211,7 +1499,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -1222,12 +1512,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -1239,7 +1533,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -1250,12 +1546,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -1267,7 +1567,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -1278,12 +1580,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -1295,7 +1601,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -1306,12 +1614,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -1323,7 +1635,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -1334,12 +1648,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -1351,7 +1669,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -1362,12 +1682,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -1379,7 +1703,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -1390,12 +1716,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -1424,22 +1754,30 @@
         "text": {
           "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
           "en": "This demo was prepared by {brand} —",
-          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —",
+          "de": "Diese Demo wurde von {brand} erstellt —",
+          "ru": "Это демо подготовлено компанией {brand} —"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "ariaLabel": {
           "tr": "Demo bilgisi",
           "en": "Demo credit",
-          "ar": "معلومات العرض التجريبي"
+          "ar": "معلومات العرض التجريبي",
+          "de": "Demo-Hinweis",
+          "ru": "Демо-информация"
         }
       },
       "veri": {
@@ -1479,7 +1817,9 @@
         "cta_ad": {
           "tr": "Bize yazın",
           "en": "Write to us",
-          "ar": "راسلنا"
+          "ar": "راسلنا",
+          "de": "Schreiben Sie uns",
+          "ru": "Напишите нам"
         },
         "cta_url": "iletisim",
         "tel": "+90 222 031 44 55",
@@ -1502,7 +1842,9 @@
         "cta": {
           "tr": "Bize yazın",
           "en": "Write to us",
-          "ar": "راسلنا"
+          "ar": "راسلنا",
+          "de": "Schreiben Sie uns",
+          "ru": "Напишите нам"
         }
       },
       "data": [],
@@ -1543,17 +1885,23 @@
         "ust": {
           "tr": "Mobil oyun evi · Eskişehir",
           "en": "Mobile game house · Eskisehir",
-          "ar": "بيت ألعاب الجوال · إسكي شهير"
+          "ar": "بيت ألعاب الجوال · إسكي شهير",
+          "de": "Mobile-Games-Studio · Eskişehir",
+          "ru": "Студия мобильных игр · Эскишехир"
         },
         "baslik": {
           "tr": "Fırıldak: ailece oynanan küçük oyunlar",
           "en": "Firildak: small games to play as a family",
-          "ar": "فِرِلداك: ألعاب صغيرة تلعبها العائلة معًا"
+          "ar": "فِرِلداك: ألعاب صغيرة تلعبها العائلة معًا",
+          "de": "Fırıldak: kleine Spiele für die ganze Familie",
+          "ru": "Fırıldak: небольшие игры для всей семьи"
         },
         "metin": {
           "tr": "Fikir çarkımız her mevsim döner: bulmaca, kelime, renk, ritim, salon ve keşif. Çarkın durduğu türden kısa, sakin ve reklamsız denenebilen bir mobil oyun çıkar. Fırıldak kurgusal bir demo oyun evidir; oyun adları, tarihler ve kişiler örnektir, görseller temsilîdir.",
           "en": "Our idea wheel turns every season: puzzle, word, colour, rhythm, living-room and discovery games. Wherever it stops, we make a short, calm mobile game you can try without ads. Firildak is a fictional demo game house; game titles, dates and people are samples and images are representative.",
-          "ar": "تدور عجلة أفكارنا كل موسم: ألغاز وكلمات وألوان وإيقاع وألعاب صالة واستكشاف. وحيثما تتوقف نصنع لعبة جوال قصيرة وهادئة يمكن تجربتها بلا إعلانات. فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية."
+          "ar": "تدور عجلة أفكارنا كل موسم: ألغاز وكلمات وألوان وإيقاع وألعاب صالة واستكشاف. وحيثما تتوقف نصنع لعبة جوال قصيرة وهادئة يمكن تجربتها بلا إعلانات. فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية.",
+          "de": "Unser Ideenrad dreht sich jede Saison: Puzzle, Wort-, Farb-, Rhythmus-, Wohnzimmer- und Entdeckungsspiele. Wo auch immer es stehen bleibt, entsteht ein kurzes, ruhiges Mobile-Spiel, das werbefrei getestet werden kann. Fırıldak ist ein fiktives Demo-Spielhaus; Spielnamen, Daten und Personen sind Beispiele, die Bilder sind repräsentativ.",
+          "ru": "Наше колесо идей вращается каждый сезон: головоломки, словесные, цветовые, ритмические, домашние и исследовательские игры. Где бы оно ни остановилось, мы создаем короткую, спокойную мобильную игру, которую можно попробовать без рекламы. Fırıldak — это вымышленный демо-игровой дом; названия игр, даты и персонажи приведены в качестве примеров, изображения носят иллюстративный характер."
         },
         "img": "/img/saas-hero-pano.webp",
         "img2": "",
@@ -1562,18 +1910,24 @@
         "alt": {
           "tr": "Renkli, yuvarlak köşeli oyun karoları",
           "en": "Colourful rounded game tiles",
-          "ar": "بلاطات لعب ملوّنة بزوايا مستديرة"
+          "ar": "بلاطات لعب ملوّنة بزوايا مستديرة",
+          "de": "Bunte Spielfiguren mit abgerundeten Ecken",
+          "ru": "Цветные игровые плитки со скругленными углами"
         },
         "cta_ad": {
           "tr": "Oyunlara bak",
           "en": "See the games",
-          "ar": "شاهد الألعاب"
+          "ar": "شاهد الألعاب",
+          "de": "Spiele ansehen",
+          "ru": "Смотреть игры"
         },
         "cta_url": "hizmetler",
         "cta2_ad": {
           "tr": "Bize yazın",
           "en": "Write to us",
-          "ar": "راسلنا"
+          "ar": "راسلنا",
+          "de": "Schreiben Sie uns",
+          "ru": "Напишите нам"
         },
         "cta2_url": "iletisim",
         "rozet_ikon": "extension",
@@ -1581,7 +1935,9 @@
         "rozet_metin": {
           "tr": "oyun türü, tek çark",
           "en": "game types, one wheel",
-          "ar": "أنواع ألعاب في عجلة واحدة"
+          "ar": "أنواع ألعاب في عجلة واحدة",
+          "de": "Spieltyp, ein Rad",
+          "ru": "Тип игры, одно колесо"
         },
         "bg": "#1B1430",
         "text": "#F4EFFF",
@@ -1599,28 +1955,38 @@
         "eyebrow": {
           "tr": "Mobil oyun evi · Eskişehir",
           "en": "Mobile game house · Eskisehir",
-          "ar": "بيت ألعاب الجوال · إسكي شهير"
+          "ar": "بيت ألعاب الجوال · إسكي شهير",
+          "de": "Mobile-Games-Studio · Eskişehir",
+          "ru": "Студия мобильных игр · Эскишехир"
         },
         "title": {
           "tr": "Fırıldak döner, yeni oyun doğar",
           "en": "The pinwheel turns, a new game is born",
-          "ar": "تدور المروحة فتولد لعبة جديدة"
+          "ar": "تدور المروحة فتولد لعبة جديدة",
+          "de": "Das Glücksrad dreht sich, ein neues Spiel entsteht",
+          "ru": "Вертушка крутится — рождается новая игра"
         },
         "cta1": {
           "tr": "Oyunlar",
           "en": "Games",
-          "ar": "ألعابنا"
+          "ar": "ألعابنا",
+          "de": "Spiele",
+          "ru": "Игры"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Bize yazın",
           "en": "Write to us",
-          "ar": "راسلنا"
+          "ar": "راسلنا",
+          "de": "Schreiben Sie uns",
+          "ru": "Напишите нам"
         },
         "scroll_label": {
           "tr": "Aşağı kaydır",
           "en": "Scroll down",
-          "ar": "انزل للأسفل"
+          "ar": "انزل للأسفل",
+          "de": "Nach unten scrollen",
+          "ru": "Прокрутите вниз"
         }
       },
       "data": [
@@ -1629,12 +1995,16 @@
           "deger": {
             "tr": "Bulmaca",
             "en": "Puzzle",
-            "ar": "ألغاز"
+            "ar": "ألغاز",
+            "de": "Rätsel",
+            "ru": "Головоломка"
           },
           "metin": {
             "tr": "Küp Kasabası",
             "en": "Cube Town",
-            "ar": "مدينة المكعّب"
+            "ar": "مدينة المكعّب",
+            "de": "Küp Kasabası",
+            "ru": "Küp Kasabası"
           }
         },
         {
@@ -1642,12 +2012,16 @@
           "deger": {
             "tr": "Kelime",
             "en": "Word",
-            "ar": "كلمات"
+            "ar": "كلمات",
+            "de": "Wort",
+            "ru": "Слово"
           },
           "metin": {
             "tr": "Harf Bahçesi",
             "en": "Letter Garden",
-            "ar": "حديقة الحروف"
+            "ar": "حديقة الحروف",
+            "de": "Buchstaben-Garten",
+            "ru": "Сад букв"
           }
         },
         {
@@ -1655,12 +2029,16 @@
           "deger": {
             "tr": "Renk",
             "en": "Colour",
-            "ar": "ألوان"
+            "ar": "ألوان",
+            "de": "Farbe",
+            "ru": "Цвет"
           },
           "metin": {
             "tr": "Renk Treni",
             "en": "Colour Train",
-            "ar": "قطار الألوان"
+            "ar": "قطار الألوان",
+            "de": "Renk Treni",
+            "ru": "Renk Treni"
           }
         },
         {
@@ -1668,12 +2046,16 @@
           "deger": {
             "tr": "Ritim",
             "en": "Rhythm",
-            "ar": "إيقاع"
+            "ar": "إيقاع",
+            "de": "Rhythmus",
+            "ru": "Ритм"
           },
           "metin": {
             "tr": "Tıkırtı",
             "en": "Tick Tock Beat",
-            "ar": "تك تك"
+            "ar": "تك تك",
+            "de": "Klackern",
+            "ru": "Постукивание"
           }
         },
         {
@@ -1681,12 +2063,16 @@
           "deger": {
             "tr": "Salon",
             "en": "Party",
-            "ar": "صالة"
+            "ar": "صالة",
+            "de": "Salon",
+            "ru": "Салон"
           },
           "metin": {
             "tr": "Salon Oyunları",
             "en": "Living Room Games",
-            "ar": "ألعاب الصالة"
+            "ar": "ألعاب الصالة",
+            "de": "Wohnzimmer-Spiele",
+            "ru": "Игры в гостиной"
           }
         },
         {
@@ -1694,12 +2080,16 @@
           "deger": {
             "tr": "Keşif",
             "en": "Discovery",
-            "ar": "استكشاف"
+            "ar": "استكشاف",
+            "de": "Besichtigung",
+            "ru": "Осмотр"
           },
           "metin": {
             "tr": "Yapımda",
             "en": "In the making",
-            "ar": "قيد الصنع"
+            "ar": "قيد الصنع",
+            "de": "In der Mache",
+            "ru": "В процессе создания"
           }
         }
       ],
@@ -1744,17 +2134,23 @@
         "ust": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "baslik": {
           "tr": "Oyuncu kartlarıyla ekibimiz",
           "en": "Our team as player cards",
-          "ar": "فريقنا في بطاقات لاعبين"
+          "ar": "فريقنا في بطاقات لاعبين",
+          "de": "Unser Team mit Spielerkarten",
+          "ru": "Наша команда в виде карточек игроков"
         },
         "metin": {
           "tr": "Köşedeki sayı stüdyodaki yılı, çubuklar her kişinin en çok sevdiği işi gösterir. Kurgusal profiller; portre kullanılmaz.",
           "en": "The number in the corner shows years at the studio; the bars show what each person enjoys most. Fictional profiles; no portraits are used.",
-          "ar": "يدل الرقم في الزاوية على سنوات العمل في الاستوديو، وتُظهر الأشرطة أكثر ما يحبه كل شخص. ملفات افتراضية؛ لا تُستخدم صور شخصية."
+          "ar": "يدل الرقم في الزاوية على سنوات العمل في الاستوديو، وتُظهر الأشرطة أكثر ما يحبه كل شخص. ملفات افتراضية؛ لا تُستخدم صور شخصية.",
+          "de": "Die Zahl in der Ecke zeigt die Jahre im Studio; die Balken zeigen, was jede Person am liebsten macht. Fiktive Profile; es werden keine Porträts verwendet.",
+          "ru": "Число в углу показывает годы работы в студии; столбцы показывают, что больше всего нравится каждому. Вымышленные профили; портреты не используются."
         },
         "bg": "#1B1430",
         "text": "#F4EFFF",
@@ -1771,17 +2167,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Oyuncu kartlarıyla ekibimiz",
           "en": "Our team as player cards",
-          "ar": "فريقنا في بطاقات لاعبين"
+          "ar": "فريقنا في بطاقات لاعبين",
+          "de": "Unser Team mit Spielerkarten",
+          "ru": "Наша команда в виде карточек игроков"
         },
         "description": {
           "tr": "Fırıldak kurgusal bir demo oyun evidir; oyun adları, tarihler ve kişiler örnektir, görseller temsilîdir.",
           "en": "Firildak is a fictional demo game house; game titles, dates and people are samples and images are representative.",
-          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية."
+          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية.",
+          "de": "Fırıldak ist ein fiktives Demo-Spielhaus; Spielnamen, Termine und Personen sind Beispiele, die Bilder sind symbolisch.",
+          "ru": "Fırıldak — вымышленный демо-дом игр; названия игр, даты и люди — примеры, изображения условные."
         }
       },
       "data": [
@@ -1789,35 +2191,47 @@
           "ad": {
             "tr": "Defne Özer",
             "en": "Defne Ozer",
-            "ar": "دفنة أوزر"
+            "ar": "دفنة أوزر",
+            "de": "Defne Özer",
+            "ru": "Defne Özer"
           },
           "unvan": {
             "tr": "Oyun tasarımcısı",
             "en": "Game designer",
-            "ar": "مصممة ألعاب"
+            "ar": "مصممة ألعاب",
+            "de": "Spieledesigner",
+            "ru": "Геймдизайнер"
           },
           "bolum": {
             "tr": "Tasarım",
             "en": "Design",
-            "ar": "التصميم"
+            "ar": "التصميم",
+            "de": "Design",
+            "ru": "Дизайн"
           },
           "puan": 7,
           "kod": {
             "tr": "yıl",
             "en": "yrs",
-            "ar": "سنوات"
+            "ar": "سنوات",
+            "de": "Jahr",
+            "ru": "лет"
           },
           "metin": {
             "tr": "Bölüm kurgusunu ve aile testlerini yürütür (kurgusal profil).",
             "en": "Plans the levels and runs the family playtests (fictional profile).",
-            "ar": "تخطط المراحل وتدير الاختبارات العائلية (ملف افتراضي)."
+            "ar": "تخطط المراحل وتدير الاختبارات العائلية (ملف افتراضي).",
+            "de": "Leitet die Abteilungsplanung und die Familientests (fiktives Profil).",
+            "ru": "Руководит планированием отдела и семейными тестами (вымышленный профиль)."
           },
           "istatistik": [
             {
               "ad": {
                 "tr": "Bulmaca",
                 "en": "Puzzles",
-                "ar": "الألغاز"
+                "ar": "الألغاز",
+                "de": "Rätsel",
+                "ru": "Головоломка"
               },
               "deger": 95
             },
@@ -1825,7 +2239,9 @@
               "ad": {
                 "tr": "Hikâye",
                 "en": "Story",
-                "ar": "القصة"
+                "ar": "القصة",
+                "de": "Geschichte",
+                "ru": "История"
               },
               "deger": 70
             },
@@ -1833,7 +2249,9 @@
               "ad": {
                 "tr": "Test",
                 "en": "Testing",
-                "ar": "الاختبار"
+                "ar": "الاختبار",
+                "de": "Test",
+                "ru": "Тестирование"
               },
               "deger": 85
             },
@@ -1841,7 +2259,9 @@
               "ad": {
                 "tr": "Çizim",
                 "en": "Drawing",
-                "ar": "الرسم"
+                "ar": "الرسم",
+                "de": "Zeichnung",
+                "ru": "Чертёж"
               },
               "deger": 40
             }
@@ -1851,35 +2271,47 @@
           "ad": {
             "tr": "Emre Balcı",
             "en": "Emre Balci",
-            "ar": "إمره بالجي"
+            "ar": "إمره بالجي",
+            "de": "Emre Balcı",
+            "ru": "Emre Balcı"
           },
           "unvan": {
             "tr": "Oyun geliştirici",
             "en": "Game developer",
-            "ar": "مطوّر ألعاب"
+            "ar": "مطوّر ألعاب",
+            "de": "Spieleentwickler",
+            "ru": "Разработчик игр"
           },
           "bolum": {
             "tr": "Kod",
             "en": "Code",
-            "ar": "البرمجة"
+            "ar": "البرمجة",
+            "de": "Code",
+            "ru": "Код"
           },
           "puan": 6,
           "kod": {
             "tr": "yıl",
             "en": "yrs",
-            "ar": "سنوات"
+            "ar": "سنوات",
+            "de": "Jahr",
+            "ru": "лет"
           },
           "metin": {
             "tr": "Dokunmatik kontroller ve küçük cihaz performansı (kurgusal profil).",
             "en": "Touch controls and performance on small devices (fictional profile).",
-            "ar": "التحكم باللمس والأداء على الأجهزة الصغيرة (ملف افتراضي)."
+            "ar": "التحكم باللمس والأداء على الأجهزة الصغيرة (ملف افتراضي).",
+            "de": "Touch-Bedienung und Leistung kleiner Geräte (fiktives Profil).",
+            "ru": "Сенсорное управление и производительность небольших устройств (условный профиль)."
           },
           "istatistik": [
             {
               "ad": {
                 "tr": "Bulmaca",
                 "en": "Puzzles",
-                "ar": "الألغاز"
+                "ar": "الألغاز",
+                "de": "Rätsel",
+                "ru": "Головоломка"
               },
               "deger": 60
             },
@@ -1887,7 +2319,9 @@
               "ad": {
                 "tr": "Hikâye",
                 "en": "Story",
-                "ar": "القصة"
+                "ar": "القصة",
+                "de": "Geschichte",
+                "ru": "История"
               },
               "deger": 35
             },
@@ -1895,7 +2329,9 @@
               "ad": {
                 "tr": "Test",
                 "en": "Testing",
-                "ar": "الاختبار"
+                "ar": "الاختبار",
+                "de": "Test",
+                "ru": "Тестирование"
               },
               "deger": 90
             },
@@ -1903,7 +2339,9 @@
               "ad": {
                 "tr": "Çizim",
                 "en": "Drawing",
-                "ar": "الرسم"
+                "ar": "الرسم",
+                "de": "Zeichnung",
+                "ru": "Чертёж"
               },
               "deger": 30
             }
@@ -1913,35 +2351,47 @@
           "ad": {
             "tr": "Lale Tunalı",
             "en": "Lale Tunali",
-            "ar": "لاله تونالي"
+            "ar": "لاله تونالي",
+            "de": "Lale Tunalı",
+            "ru": "Lale Tunalı"
           },
           "unvan": {
             "tr": "Görsel sanatçı",
             "en": "Visual artist",
-            "ar": "فنانة بصرية"
+            "ar": "فنانة بصرية",
+            "de": "Bildende Künstlerin",
+            "ru": "Художник-визуал"
           },
           "bolum": {
             "tr": "Sanat",
             "en": "Art",
-            "ar": "الفن"
+            "ar": "الفن",
+            "de": "Kunst",
+            "ru": "Искусство"
           },
           "puan": 5,
           "kod": {
             "tr": "yıl",
             "en": "yrs",
-            "ar": "سنوات"
+            "ar": "سنوات",
+            "de": "Jahr",
+            "ru": "лет"
           },
           "metin": {
             "tr": "Karakterler, renk paleti ve arayüz ikonları (kurgusal profil).",
             "en": "Characters, colour palettes and interface icons (fictional profile).",
-            "ar": "الشخصيات ولوحات الألوان وأيقونات الواجهة (ملف افتراضي)."
+            "ar": "الشخصيات ولوحات الألوان وأيقونات الواجهة (ملف افتراضي).",
+            "de": "Figuren, Farbpalette und Oberflächen-Icons (fiktives Profil).",
+            "ru": "Персонажи, цветовая палитра и иконки интерфейса (вымышленный профиль)."
           },
           "istatistik": [
             {
               "ad": {
                 "tr": "Bulmaca",
                 "en": "Puzzles",
-                "ar": "الألغاز"
+                "ar": "الألغاز",
+                "de": "Rätsel",
+                "ru": "Головоломка"
               },
               "deger": 45
             },
@@ -1949,7 +2399,9 @@
               "ad": {
                 "tr": "Hikâye",
                 "en": "Story",
-                "ar": "القصة"
+                "ar": "القصة",
+                "de": "Geschichte",
+                "ru": "История"
               },
               "deger": 75
             },
@@ -1957,7 +2409,9 @@
               "ad": {
                 "tr": "Test",
                 "en": "Testing",
-                "ar": "الاختبار"
+                "ar": "الاختبار",
+                "de": "Test",
+                "ru": "Тестирование"
               },
               "deger": 50
             },
@@ -1965,7 +2419,9 @@
               "ad": {
                 "tr": "Çizim",
                 "en": "Drawing",
-                "ar": "الرسم"
+                "ar": "الرسم",
+                "de": "Zeichnung",
+                "ru": "Чертёж"
               },
               "deger": 98
             }
@@ -1975,35 +2431,47 @@
           "ad": {
             "tr": "Kerem Aksoy",
             "en": "Kerem Aksoy",
-            "ar": "كرم أقصوي"
+            "ar": "كرم أقصوي",
+            "de": "Kerem Aksoy",
+            "ru": "Kerem Aksoy"
           },
           "unvan": {
             "tr": "Ses ve müzik",
             "en": "Sound and music",
-            "ar": "الصوت والموسيقى"
+            "ar": "الصوت والموسيقى",
+            "de": "Ton und Musik",
+            "ru": "Звук и музыка"
           },
           "bolum": {
             "tr": "Ses",
             "en": "Sound",
-            "ar": "الصوت"
+            "ar": "الصوت",
+            "de": "Ton",
+            "ru": "Звук"
           },
           "puan": 4,
           "kod": {
             "tr": "yıl",
             "en": "yrs",
-            "ar": "سنوات"
+            "ar": "سنوات",
+            "de": "Jahr",
+            "ru": "лет"
           },
           "metin": {
             "tr": "Tıkırtı’nın ritimleri ve tüm oyunların yumuşak sesleri (kurgusal profil).",
             "en": "The beats of Tick Tock Beat and the soft sounds of every game (fictional profile).",
-            "ar": "إيقاعات لعبة تك تك والأصوات الناعمة لكل الألعاب (ملف افتراضي)."
+            "ar": "إيقاعات لعبة تك تك والأصوات الناعمة لكل الألعاب (ملف افتراضي).",
+            "de": "Die Rhythmen von Tıkırtı und die sanften Klänge aller Spiele (fiktives Profil).",
+            "ru": "Ритмы Tıkırtı и мягкие звуки всех игр (фиктивный профиль)."
           },
           "istatistik": [
             {
               "ad": {
                 "tr": "Bulmaca",
                 "en": "Puzzles",
-                "ar": "الألغاز"
+                "ar": "الألغاز",
+                "de": "Rätsel",
+                "ru": "Головоломка"
               },
               "deger": 40
             },
@@ -2011,7 +2479,9 @@
               "ad": {
                 "tr": "Hikâye",
                 "en": "Story",
-                "ar": "القصة"
+                "ar": "القصة",
+                "de": "Geschichte",
+                "ru": "История"
               },
               "deger": 60
             },
@@ -2019,7 +2489,9 @@
               "ad": {
                 "tr": "Test",
                 "en": "Testing",
-                "ar": "الاختبار"
+                "ar": "الاختبار",
+                "de": "Test",
+                "ru": "Тестирование"
               },
               "deger": 65
             },
@@ -2027,7 +2499,9 @@
               "ad": {
                 "tr": "Çizim",
                 "en": "Drawing",
-                "ar": "الرسم"
+                "ar": "الرسم",
+                "de": "Zeichnung",
+                "ru": "Чертёж"
               },
               "deger": 25
             }
@@ -2078,17 +2552,23 @@
         "ust": {
           "tr": "Oyunlar",
           "en": "Games",
-          "ar": "ألعابنا"
+          "ar": "ألعابنا",
+          "de": "Spiele",
+          "ru": "Игры"
         },
         "baslik": {
           "tr": "Desteden bir oyun çekin",
           "en": "Draw a game from the deck",
-          "ar": "اسحب لعبة من المجموعة"
+          "ar": "اسحب لعبة من المجموعة",
+          "de": "Ziehen Sie ein Spiel aus dem Stapel",
+          "ru": "Вытяните игру из колоды"
         },
         "metin": {
           "tr": "«Sonraki» ile üstteki kartı atın; her kartta bir oyunumuz var. Görseller temsilîdir.",
           "en": "Use «Next» to toss the top card; each card holds one of our games. Images are representative.",
-          "ar": "استخدم «التالي» لرمي البطاقة العليا؛ في كل بطاقة لعبة من ألعابنا. الصور تمثيلية."
+          "ar": "استخدم «التالي» لرمي البطاقة العليا؛ في كل بطاقة لعبة من ألعابنا. الصور تمثيلية.",
+          "de": "Verwenden Sie «Weiter», um die oberste Karte wegzuwerfen; jede Karte enthält eines unserer Spiele. Bilder sind repräsentativ.",
+          "ru": "Используйте «Далее», чтобы сбросить верхнюю карту; на каждой карте одно из наших игр. Изображения являются иллюстративными."
         },
         "img": "",
         "bg": "var(--mx-site-surface, #f6f7f9)",
@@ -2106,22 +2586,30 @@
         "eyebrow": {
           "tr": "Oyunlar",
           "en": "Games",
-          "ar": "ألعابنا"
+          "ar": "ألعابنا",
+          "de": "Spiele",
+          "ru": "Игры"
         },
         "title": {
           "tr": "Desteden bir oyun çekin",
           "en": "Draw a game from the deck",
-          "ar": "اسحب لعبة من المجموعة"
+          "ar": "اسحب لعبة من المجموعة",
+          "de": "Ziehen Sie ein Spiel aus dem Stapel",
+          "ru": "Вытяните игру из колоды"
         },
         "description": {
           "tr": "Fırıldak kurgusal bir demo oyun evidir; oyun adları, tarihler ve kişiler örnektir, görseller temsilîdir.",
           "en": "Firildak is a fictional demo game house; game titles, dates and people are samples and images are representative.",
-          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية."
+          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية.",
+          "de": "Fırıldak ist ein fiktives Demo-Spielhaus; Spielnamen, Termine und Personen sind Beispiele, die Bilder sind symbolisch.",
+          "ru": "Fırıldak — вымышленный демо-дом игр; названия игр, даты и люди — примеры, изображения условные."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
           "en": "Details",
-          "ar": "التفاصيل"
+          "ar": "التفاصيل",
+          "de": "Details",
+          "ru": "Подробности"
         }
       },
       "data": [
@@ -2130,24 +2618,32 @@
           "baslik": {
             "tr": "Küp Kasabası",
             "en": "Cube Town",
-            "ar": "مدينة المكعّب"
+            "ar": "مدينة المكعّب",
+            "de": "Küp Kasabası",
+            "ru": "Küp Kasabası"
           },
           "metin": {
             "tr": "Küpleri döndürüp kasabanın yollarını birleştirin; her bölüm üç dakikada biter.",
             "en": "Turn the cubes to join the town’s roads; every level takes about three minutes.",
-            "ar": "أدِر المكعّبات لتصل طرق المدينة؛ تنتهي كل مرحلة في نحو ثلاث دقائق."
+            "ar": "أدِر المكعّبات لتصل طرق المدينة؛ تنتهي كل مرحلة في نحو ثلاث دقائق.",
+            "de": "Drehen Sie die Würfel und verbinden Sie die Straßen der Stadt; jedes Level ist in drei Minuten geschafft.",
+            "ru": "Поворачивайте кубы и соединяйте дороги городка; каждый уровень проходится за три минуты."
           },
           "img": "/img/ajans-is-ambalaj.webp",
           "alt": {
             "tr": "Gri küplerin arasında sarı-yeşil küp",
             "en": "A lime cube among grey cubes",
-            "ar": "مكعّب أخضر مصفرّ بين مكعّبات رمادية"
+            "ar": "مكعّب أخضر مصفرّ بين مكعّبات رمادية",
+            "de": "Ein gelbgrüner Würfel zwischen grauen Würfeln",
+            "ru": "Жёлто-зелёный куб среди серых кубов"
           },
           "url": "hizmetler",
           "linkMetin": {
             "tr": "Oyunlar",
             "en": "Games",
-            "ar": "ألعابنا"
+            "ar": "ألعابنا",
+            "de": "Spiele",
+            "ru": "Игры"
           }
         },
         {
@@ -2155,24 +2651,32 @@
           "baslik": {
             "tr": "Harf Bahçesi",
             "en": "Letter Garden",
-            "ar": "حديقة الحروف"
+            "ar": "حديقة الحروف",
+            "de": "Buchstaben-Garten",
+            "ru": "Сад букв"
           },
           "metin": {
             "tr": "Harfleri tohum gibi ekin, kelimeler çiçek açsın; Türkçe, İngilizce ve Arapça sözlükle.",
             "en": "Plant letters like seeds and watch words bloom; with Turkish, English and Arabic dictionaries.",
-            "ar": "ازرع الحروف كالبذور لتتفتّح الكلمات؛ بقواميس تركية وإنجليزية وعربية."
+            "ar": "ازرع الحروف كالبذور لتتفتّح الكلمات؛ بقواميس تركية وإنجليزية وعربية.",
+            "de": "Pflanzen Sie Buchstaben wie Samen und sehen Sie Wörter blühen; mit türkischen, englischen und arabischen Wörterbüchern.",
+            "ru": "Посейте буквы как семена и смотрите, как расцветают слова; со словарями турецкого, английского и арабского языков."
           },
           "img": "/img/ajans-is-afis.webp",
           "alt": {
             "tr": "Duvarda sarı-yeşil afiş",
             "en": "A lime poster on a wall",
-            "ar": "ملصق أخضر مصفرّ على الجدار"
+            "ar": "ملصق أخضر مصفرّ على الجدار",
+            "de": "Ein limettengrünes Plakat an der Wand",
+            "ru": "Лаймовый постер на стене"
           },
           "url": "hizmetler",
           "linkMetin": {
             "tr": "Oyunlar",
             "en": "Games",
-            "ar": "ألعابنا"
+            "ar": "ألعابنا",
+            "de": "Spiele",
+            "ru": "Игры"
           }
         },
         {
@@ -2180,24 +2684,32 @@
           "baslik": {
             "tr": "Renk Treni",
             "en": "Colour Train",
-            "ar": "قطار الألوان"
+            "ar": "قطار الألوان",
+            "de": "Renk Treni",
+            "ru": "Renk Treni"
           },
           "metin": {
             "tr": "Vagonları renklerine göre sıralayın; renk körlüğü dostu desenli mod var.",
             "en": "Sort the wagons by colour; there is a pattern mode friendly to colour blindness.",
-            "ar": "رتّب العربات حسب ألوانها؛ مع وضع بالنقوش مناسب لعمى الألوان."
+            "ar": "رتّب العربات حسب ألوانها؛ مع وضع بالنقوش مناسب لعمى الألوان.",
+            "de": "Sortieren Sie die Waggons nach Farbe; es gibt einen farbenblindfreundlichen Mustermodus.",
+            "ru": "Сортируйте вагоны по цвету; есть режим с узорами, удобный для дальтоников."
           },
           "img": "/img/ajans-is-billboard.webp",
           "alt": {
             "tr": "Duvardaki ekranda renkli dalgalar",
             "en": "Colourful waves on a wall screen",
-            "ar": "موجات ملوّنة على شاشة جدارية"
+            "ar": "موجات ملوّنة على شاشة جدارية",
+            "de": "Bunte Wellen auf dem Bildschirm an der Wand",
+            "ru": "Цветные волны на экране на стене"
           },
           "url": "hizmetler",
           "linkMetin": {
             "tr": "Oyunlar",
             "en": "Games",
-            "ar": "ألعابنا"
+            "ar": "ألعابنا",
+            "de": "Spiele",
+            "ru": "Игры"
           }
         },
         {
@@ -2205,24 +2717,32 @@
           "baslik": {
             "tr": "Tıkırtı",
             "en": "Tick Tock Beat",
-            "ar": "تك تك"
+            "ar": "تك تك",
+            "de": "Klackern",
+            "ru": "Постукивание"
           },
           "metin": {
             "tr": "Saatin tıkırtısına dokunarak eşlik edin; tempo yavaş başlar, kendi hızınızda ilerler.",
             "en": "Tap along to the clock’s tick; the tempo starts slow and moves at your own pace.",
-            "ar": "انقر مع تكتكة الساعة؛ يبدأ الإيقاع بطيئًا ويتقدّم بسرعتك."
+            "ar": "انقر مع تكتكة الساعة؛ يبدأ الإيقاع بطيئًا ويتقدّم بسرعتك.",
+            "de": "Begleiten Sie das Ticken der Uhr mit einer Berührung; das Tempo beginnt langsam und folgt Ihrer eigenen Geschwindigkeit.",
+            "ru": "Сопровождайте тиканье часов прикосновением; темп начинается медленно и подстраивается под вас."
           },
           "img": "/img/ajans-is-sosyal.webp",
           "alt": {
             "tr": "Elde tutulan renkli ekranlı telefon",
             "en": "A phone with a colourful screen held in a hand",
-            "ar": "هاتف بشاشة ملوّنة في اليد"
+            "ar": "هاتف بشاشة ملوّنة في اليد",
+            "de": "Handgehaltenes Telefon mit Farbdisplay",
+            "ru": "Телефон с цветным экраном в руке"
           },
           "url": "hizmetler",
           "linkMetin": {
             "tr": "Oyunlar",
             "en": "Games",
-            "ar": "ألعابنا"
+            "ar": "ألعابنا",
+            "de": "Spiele",
+            "ru": "Игры"
           }
         },
         {
@@ -2230,24 +2750,32 @@
           "baslik": {
             "tr": "Salon Oyunları",
             "en": "Living Room Games",
-            "ar": "ألعاب الصالة"
+            "ar": "ألعاب الصالة",
+            "de": "Wohnzimmer-Spiele",
+            "ru": "Игры в гостиной"
           },
           "metin": {
             "tr": "Tek telefonla sırayla oynanan altı mini oyun; misafir akşamları için.",
             "en": "Six mini games taken in turns on one phone; made for evenings with guests.",
-            "ar": "ست ألعاب صغيرة تُلعب بالتناوب على هاتف واحد؛ لأمسيات الضيوف."
+            "ar": "ست ألعاب صغيرة تُلعب بالتناوب على هاتف واحد؛ لأمسيات الضيوف.",
+            "de": "Sechs Minispiele, die nacheinander auf einem Telefon gespielt werden; für Gästeabende.",
+            "ru": "Шесть мини-игр, в которые играют по очереди на одном телефоне; для вечеров с гостями."
           },
           "img": "/img/ajans-hero-studyo.webp",
           "alt": {
             "tr": "Masalarında dizüstü bilgisayarlar olan aydınlık stüdyo",
             "en": "A bright studio with laptops on the desks",
-            "ar": "استوديو مضيء بحواسيب محمولة على المكاتب"
+            "ar": "استوديو مضيء بحواسيب محمولة على المكاتب",
+            "de": "Helles Studio mit Laptops auf den Tischen",
+            "ru": "Светлая студия с ноутбуками на столах"
           },
           "url": "hizmetler",
           "linkMetin": {
             "tr": "Oyunlar",
             "en": "Games",
-            "ar": "ألعابنا"
+            "ar": "ألعابنا",
+            "de": "Spiele",
+            "ru": "Игры"
           }
         }
       ],
@@ -2293,22 +2821,30 @@
         "ust": {
           "tr": "Pano",
           "en": "Board",
-          "ar": "اللوحة"
+          "ar": "اللوحة",
+          "de": "Übersicht",
+          "ru": "Панель"
         },
         "baslik": {
           "tr": "Panoya bir not bırakın",
           "en": "Leave a note on the board",
-          "ar": "اترك ملاحظة على اللوحة"
+          "ar": "اترك ملاحظة على اللوحة",
+          "de": "Hinterlassen Sie eine Notiz auf dem Board",
+          "ru": "Оставьте заметку на доске"
         },
         "metin": {
           "tr": "Oyun fikri, okul ya da kütüphane için oyun akşamı, ortak yapım… Hangi notu seçerseniz oradan ulaşın; iki iş günü içinde dönüş yaparız. Fırıldak kurgusal bir demo oyun evidir; oyun adları, tarihler ve kişiler örnektir, görseller temsilîdir.",
           "en": "A game idea, a game night for a school or library, a co-production… Reach us through whichever note you like; we reply within two business days. Firildak is a fictional demo game house; game titles, dates and people are samples and images are representative.",
-          "ar": "فكرة لعبة، أو أمسية ألعاب لمدرسة أو مكتبة، أو إنتاج مشترك… تواصل معنا عبر أي ملاحظة تختارها؛ نردّ خلال يومي عمل. فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية."
+          "ar": "فكرة لعبة، أو أمسية ألعاب لمدرسة أو مكتبة، أو إنتاج مشترك… تواصل معنا عبر أي ملاحظة تختارها؛ نردّ خلال يومي عمل. فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية.",
+          "de": "Spielidee, Spieleabend für Schule oder Bibliothek, gemeinsame Produktion… Wählen Sie ein Stichwort, und wir melden uns innerhalb von zwei Werktagen. Fırıldak ist ein fiktives Demo-Spielhaus; Spielnamen, Termine und Personen sind Beispiele, die Bilder sind symbolisch.",
+          "ru": "Идея игры, игровой вечер для школы или библиотеки, совместная постановка… Выберите тему, и мы ответим в течение двух рабочих дней. Fırıldak — вымышленный демо-дом игр; названия игр, даты и люди — примеры, изображения условные."
         },
         "adres": {
           "tr": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (kurgusal adres)",
           "en": "31 Ismet Inonu Street, Hosnudiye, Tepebasi, Eskisehir (fictional address)",
-          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)"
+          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)",
+          "de": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (fiktive Adresse)",
+          "ru": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (вымышленный адрес)"
         },
         "telefon": "+90 222 031 44 55",
         "eposta": "selam@firildak.example",
@@ -2316,14 +2852,18 @@
         "saat": {
           "tr": "Pzt–Cum 09:30 – 18:00",
           "en": "Mon–Fri 09:30 – 18:00",
-          "ar": "الاثنين–الجمعة 09:30 – 18:00"
+          "ar": "الاثنين–الجمعة 09:30 – 18:00",
+          "de": "Mo–Fr 09:30 – 18:00",
+          "ru": "Пн–Пт 09:30 – 18:00"
         },
         "haritaUrl": "",
         "haritaGomme": "",
         "waMesaj": {
           "tr": "Merhaba Fırıldak, bir oyun fikri için yazıyorum.",
           "en": "Hello Firildak, I am writing about a game idea.",
-          "ar": "مرحبًا فِرِلداك، أكتب بخصوص فكرة لعبة."
+          "ar": "مرحبًا فِرِلداك، أكتب بخصوص فكرة لعبة.",
+          "de": "Guten Tag Fırıldak, ich schreibe wegen einer Spielidee.",
+          "ru": "Здравствуйте, Fırıldak, пишу по поводу идеи для игры."
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -2341,40 +2881,54 @@
         "address": {
           "tr": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (kurgusal adres)",
           "en": "31 Ismet Inonu Street, Hosnudiye, Tepebasi, Eskisehir (fictional address)",
-          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)"
+          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)",
+          "de": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (fiktive Adresse)",
+          "ru": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (вымышленный адрес)"
         },
         "phone": "+90 222 031 44 55",
         "email": "selam@firildak.example",
         "hours": {
           "tr": "Pzt–Cum 09:30 – 18:00",
           "en": "Mon–Fri 09:30 – 18:00",
-          "ar": "الاثنين–الجمعة 09:30 – 18:00"
+          "ar": "الاثنين–الجمعة 09:30 – 18:00",
+          "de": "Mo–Fr 09:30 – 18:00",
+          "ru": "Пн–Пт 09:30 – 18:00"
         },
         "social": [],
         "title": {
           "tr": "Panoya bir not bırakın",
           "en": "Leave a note on the board",
-          "ar": "اترك ملاحظة على اللوحة"
+          "ar": "اترك ملاحظة على اللوحة",
+          "de": "Hinterlassen Sie eine Notiz auf dem Board",
+          "ru": "Оставьте заметку на доске"
         },
         "description": {
           "tr": "Fırıldak kurgusal bir demo oyun evidir; oyun adları, tarihler ve kişiler örnektir, görseller temsilîdir.",
           "en": "Firildak is a fictional demo game house; game titles, dates and people are samples and images are representative.",
-          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية."
+          "ar": "فِرِلداك بيت ألعاب تجريبي افتراضي؛ أسماء الألعاب والتواريخ والأشخاص أمثلة والصور تمثيلية.",
+          "de": "Fırıldak ist ein fiktives Demo-Spielhaus; Spielnamen, Termine und Personen sind Beispiele, die Bilder sind symbolisch.",
+          "ru": "Fırıldak — вымышленный демо-дом игр; названия игр, даты и люди — примеры, изображения условные."
         },
         "panelTitle": {
           "tr": "Fırıldak",
           "en": "Firildak",
-          "ar": "فِرِلداك"
+          "ar": "فِرِلداك",
+          "de": "Windrad",
+          "ru": "Вертушка"
         },
         "panelText": {
           "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "ar": "الصور تمثيلية وهذا عرض تجريبي.",
+          "de": "Die Bilder sind symbolisch; dies ist eine Einrichtungs-Demo.",
+          "ru": "Изображения условные; это демонстрация установки."
         },
         "formTitle": {
           "tr": "Teklif formu",
           "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "ar": "نموذج الطلب",
+          "de": "Angebotsformular",
+          "ru": "Форма запроса предложения"
         },
         "subjects": [
           {
@@ -2382,7 +2936,9 @@
             "name": {
               "tr": "Yeni talep",
               "en": "New request",
-              "ar": "طلب جديد"
+              "ar": "طلب جديد",
+              "de": "Neue Anfrage",
+              "ru": "Новый запрос"
             }
           },
           {
@@ -2390,7 +2946,9 @@
             "name": {
               "tr": "Ölçü ve keşif",
               "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "ar": "قياس واستقصاء",
+              "de": "Aufmaß und Besichtigung",
+              "ru": "Замеры и осмотр"
             }
           },
           {
@@ -2398,7 +2956,9 @@
             "name": {
               "tr": "Teknik soru",
               "en": "Technical question",
-              "ar": "سؤال فني"
+              "ar": "سؤال فني",
+              "de": "Technische Frage",
+              "ru": "Технический вопрос"
             }
           },
           {
@@ -2406,19 +2966,25 @@
             "name": {
               "tr": "Diğer",
               "en": "Other",
-              "ar": "أخرى"
+              "ar": "أخرى",
+              "de": "Sonstiges",
+              "ru": "Другое"
             }
           }
         ],
         "kvkkText": {
           "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
           "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
-          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب.",
+          "de": "Ich habe die Datenschutzerklärung zur Verarbeitung meiner personenbezogenen Daten zur Beantwortung dieser Anfrage gelesen.",
+          "ru": "Я ознакомился(лась) с уведомлением о конфиденциальности об обработке моих персональных данных для ответа на этот запрос."
         },
         "kvkkLinkText": {
           "tr": "Aydınlatma metni",
           "en": "Privacy notice",
-          "ar": "إشعار الخصوصية"
+          "ar": "إشعار الخصوصية",
+          "de": "Datenschutzhinweis",
+          "ru": "Информация об обработке данных"
         },
         "kvkkHref": "kisiselveriler"
       },
@@ -2465,25 +3031,33 @@
         "hakkinda": {
           "tr": "Eskişehir’de ailece oynanan bulmaca, kelime, renk ve ritim oyunları tasarlayan kurgusal demo mobil oyun stüdyosu.",
           "en": "A fictional demo mobile game studio in Eskisehir designing puzzle, word, colour and rhythm games for families.",
-          "ar": "استوديو ألعاب جوال تجريبي افتراضي في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع للعائلات."
+          "ar": "استوديو ألعاب جوال تجريبي افتراضي في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع للعائلات.",
+          "de": "Fiktives Demo-Studio für mobile Spiele in Eskişehir, das Familien-Rätsel-, Wort-, Farb- und Rhythmusspiele entwirft.",
+          "ru": "Вымышленная демо-студия мобильных игр в Эскишехире, создающая семейные игры-головоломки, словесные, цветовые и ритмические игры."
         },
         "tel": "+90 222 031 44 55",
         "eposta": "selam@firildak.example",
         "adres": {
           "tr": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (kurgusal adres)",
           "en": "31 Ismet Inonu Street, Hosnudiye, Tepebasi, Eskisehir (fictional address)",
-          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)"
+          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)",
+          "de": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (fiktive Adresse)",
+          "ru": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (вымышленный адрес)"
         },
         "cta_ad": {
           "tr": "Bize yazın",
           "en": "Write to us",
-          "ar": "راسلنا"
+          "ar": "راسلنا",
+          "de": "Schreiben Sie uns",
+          "ru": "Напишите нам"
         },
         "cta_url": "iletisim",
         "rightsText": {
           "tr": "Tüm hakları saklıdır · Görseller temsilîdir.",
           "en": "All rights reserved · Images are representative.",
-          "ar": "جميع الحقوق محفوظة · الصور تمثيلية."
+          "ar": "جميع الحقوق محفوظة · الصور تمثيلية.",
+          "de": "Alle Rechte vorbehalten · Die Bilder sind symbolisch.",
+          "ru": "Все права защищены · Изображения иллюстративные."
         },
         "bg": "#1B1430",
         "text": "#F4EFFF",
@@ -2505,12 +3079,16 @@
         "about": {
           "tr": "Eskişehir’de ailece oynanan bulmaca, kelime, renk ve ritim oyunları tasarlayan kurgusal demo mobil oyun stüdyosu.",
           "en": "A fictional demo mobile game studio in Eskisehir designing puzzle, word, colour and rhythm games for families.",
-          "ar": "استوديو ألعاب جوال تجريبي افتراضي في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع للعائلات."
+          "ar": "استوديو ألعاب جوال تجريبي افتراضي في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع للعائلات.",
+          "de": "Fiktives Demo-Studio für mobile Spiele in Eskişehir, das Familien-Rätsel-, Wort-, Farb- und Rhythmusspiele entwirft.",
+          "ru": "Вымышленная демо-студия мобильных игр в Эскишехире, создающая семейные игры-головоломки, словесные, цветовые и ритмические игры."
         },
         "address": {
           "tr": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (kurgusal adres)",
           "en": "31 Ismet Inonu Street, Hosnudiye, Tepebasi, Eskisehir (fictional address)",
-          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)"
+          "ar": "شارع عصمت إينونو رقم 31، حوشنودية، تبه باشي، إسكي شهير (عنوان افتراضي)",
+          "de": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (fiktive Adresse)",
+          "ru": "Hoşnudiye Mahallesi, İsmet İnönü Caddesi No: 31, Tepebaşı, Eskişehir (вымышленный адрес)"
         },
         "phone": "+90 222 031 44 55",
         "email": "selam@firildak.example",
@@ -2520,7 +3098,9 @@
             "name": {
               "tr": "KVKK",
               "en": "Privacy (KVKK)",
-              "ar": "حماية البيانات"
+              "ar": "حماية البيانات",
+              "de": "Datenschutz (KVKK)",
+              "ru": "Закон о защите данных (KVKK)"
             },
             "href": "kisiselveriler"
           },
@@ -2528,7 +3108,9 @@
             "name": {
               "tr": "Gizlilik",
               "en": "Privacy policy",
-              "ar": "سياسة الخصوصية"
+              "ar": "سياسة الخصوصية",
+              "de": "Datenschutz",
+              "ru": "Конфиденциальность"
             },
             "href": "gizlilikpolitikasi"
           },
@@ -2536,7 +3118,9 @@
             "name": {
               "tr": "Yasal uyarı",
               "en": "Legal notice",
-              "ar": "إشعار قانوني"
+              "ar": "إشعار قانوني",
+              "de": "Rechtlicher Hinweis",
+              "ru": "Правовое уведомление"
             },
             "href": "yasaluyari"
           }
@@ -2544,17 +3128,23 @@
         "nlTitle": {
           "tr": "Haberdar olun",
           "en": "Stay informed",
-          "ar": "ابقَ على اطلاع"
+          "ar": "ابقَ على اطلاع",
+          "de": "Bleiben Sie informiert",
+          "ru": "Будьте в курсе"
         },
         "nlText": {
           "tr": "Yeni duyurular için e-posta bırakın. Bu demo sitede veri saklanmaz.",
           "en": "Leave your e-mail for new announcements. No data is stored on this demo site.",
-          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي.",
+          "de": "Hinterlassen Sie Ihre E-Mail für neue Ankündigungen. Auf dieser Demo-Website werden keine Daten gespeichert.",
+          "ru": "Оставьте e-mail, чтобы получать новые анонсы. На этом демо-сайте данные не сохраняются."
         },
         "nlKvkk": {
           "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
           "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
-          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت.",
+          "de": "Ihre E-Mail-Adresse wird nur für den Versand von Ankündigungen verwendet; Sie können sich jederzeit abmelden.",
+          "ru": "Ваш e-mail используется только для рассылки объявлений; вы можете отписаться в любой момент."
         },
         "services": [],
         "hours": [
@@ -2562,7 +3152,9 @@
             "days": {
               "tr": "Pzt–Cum",
               "en": "Mon–Fri",
-              "ar": "الاثنين–الجمعة"
+              "ar": "الاثنين–الجمعة",
+              "de": "Mo–Fr",
+              "ru": "Пн–Пт"
             },
             "time": "09:30 – 18:00"
           },
@@ -2570,12 +3162,16 @@
             "days": {
               "tr": "Cmt–Paz",
               "en": "Sat–Sun",
-              "ar": "السبت–الأحد"
+              "ar": "السبت–الأحد",
+              "de": "Sa–So",
+              "ru": "Сб–Вс"
             },
             "time": {
               "tr": "Kapalı",
               "en": "Closed",
-              "ar": "مغلق"
+              "ar": "مغلق",
+              "de": "Geschlossen",
+              "ru": "Закрыто"
             }
           }
         ]
@@ -2625,17 +3221,23 @@
         "ust": {
           "tr": "Yapım",
           "en": "Making",
-          "ar": "الصنع"
+          "ar": "الصنع",
+          "de": "Produktion",
+          "ru": "Производство"
         },
         "baslik": {
           "tr": "Bir oyun dört kartta doğar",
           "en": "A game is born in four cards",
-          "ar": "تولد اللعبة في أربع بطاقات"
+          "ar": "تولد اللعبة في أربع بطاقات",
+          "de": "Ein Spiel entsteht auf vier Karten",
+          "ru": "Игра рождается на четырёх карточках"
         },
         "metin": {
           "tr": "Kartın üzerine gelin ya da dokunun; arka yüzde o adımda ne yaptığımız ve ne kadar sürdüğü yazar.",
           "en": "Hover or tap a card; the back says what we do at that step and how long it takes.",
-          "ar": "مرّر المؤشر على البطاقة أو المسها؛ يذكر الوجه الخلفي ما نفعله في تلك الخطوة وكم تستغرق."
+          "ar": "مرّر المؤشر على البطاقة أو المسها؛ يذكر الوجه الخلفي ما نفعله في تلك الخطوة وكم تستغرق.",
+          "de": "Fahren Sie mit der Maus über eine Karte oder tippen Sie darauf; auf der Rückseite steht, was wir in diesem Schritt tun und wie lange es dauert.",
+          "ru": "Наведите курсор или коснитесь карточки; на обороте указано, что мы делаем на этом этапе и сколько это занимает времени."
         },
         "bg": "var(--mx-site-primary, #2563eb)",
         "text": "var(--mx-site-primary-contrast, #ffffff)",
@@ -2652,7 +3254,9 @@
         "adimEtiket": {
           "tr": "Adım {n}",
           "en": "Step {n}",
-          "ar": "الخطوة {n}"
+          "ar": "الخطوة {n}",
+          "de": "Schritt {n}",
+          "ru": "Шаг {n}"
         }
       },
       "data": [
@@ -2661,17 +3265,23 @@
           "baslik": {
             "tr": "Fikir çarkı",
             "en": "Idea wheel",
-            "ar": "عجلة الأفكار"
+            "ar": "عجلة الأفكار",
+            "de": "Ideenrad",
+            "ru": "Колесо идей"
           },
           "sure": {
             "tr": "1 gün",
             "en": "1 day",
-            "ar": "يوم واحد"
+            "ar": "يوم واحد",
+            "de": "1 Tag",
+            "ru": "1 день"
           },
           "metin": {
             "tr": "Ekip çarkı çevirir; durduğu türde üç küçük fikir yazılır.",
             "en": "The team turns the wheel; three small ideas are written for the type it lands on.",
-            "ar": "يدير الفريق العجلة، وتُكتب ثلاث أفكار صغيرة للنوع الذي تتوقف عنده."
+            "ar": "يدير الفريق العجلة، وتُكتب ثلاث أفكار صغيرة للنوع الذي تتوقف عنده.",
+            "de": "Das Team dreht das Rad; für die gewählte Art werden drei kleine Ideen notiert.",
+            "ru": "Команда крутит колесо; для выпавшего типа записываются три маленькие идеи."
           }
         },
         {
@@ -2679,17 +3289,23 @@
           "baslik": {
             "tr": "Kâğıt prototip",
             "en": "Paper prototype",
-            "ar": "نموذج ورقي"
+            "ar": "نموذج ورقي",
+            "de": "Papier-Prototyp",
+            "ru": "Бумажный прототип"
           },
           "sure": {
             "tr": "4 hafta",
             "en": "4 weeks",
-            "ar": "4 أسابيع"
+            "ar": "4 أسابيع",
+            "de": "4 Wochen",
+            "ru": "4 недели"
           },
           "metin": {
             "tr": "Kurallar önce kâğıt ve makasla masada, sonra tek bölümlük telefon sürümünde denenir.",
             "en": "The rules are tried first at the table with paper and scissors, then in a one-level phone build.",
-            "ar": "تُجرَّب القواعد أولًا على الطاولة بالورق والمقص، ثم في نسخة هاتف بمرحلة واحدة."
+            "ar": "تُجرَّب القواعد أولًا على الطاولة بالورق والمقص، ثم في نسخة هاتف بمرحلة واحدة.",
+            "de": "Die Regeln werden zuerst mit Papier und Schere am Tisch getestet, dann in einer Ein-Level-Handyversion.",
+            "ru": "Правила сначала проверяются за столом с бумагой и ножницами, затем — в одноуровневой версии для телефона."
           }
         },
         {
@@ -2697,17 +3313,23 @@
           "baslik": {
             "tr": "Aile testi",
             "en": "Family playtest",
-            "ar": "اختبار عائلي"
+            "ar": "اختبار عائلي",
+            "de": "Familientest",
+            "ru": "Семейный тест"
           },
           "sure": {
             "tr": "2 hafta",
             "en": "2 weeks",
-            "ar": "أسبوعان"
+            "ar": "أسبوعان",
+            "de": "2 Wochen",
+            "ru": "2 недели"
           },
           "metin": {
             "tr": "Gönüllü aileler oynar; takıldıkları yer not edilir.",
             "en": "Volunteer families play; the spots where they get stuck are noted.",
-            "ar": "تلعب عائلات متطوعة، وتُدوَّن المواضع التي يتعثّرون فيها."
+            "ar": "تلعب عائلات متطوعة، وتُدوَّن المواضع التي يتعثّرون فيها.",
+            "de": "Freiwillige Familien spielen; wo sie hängen bleiben, wird notiert.",
+            "ru": "Играют семьи-добровольцы; места, где они застревают, фиксируются."
           }
         },
         {
@@ -2715,17 +3337,23 @@
           "baslik": {
             "tr": "Mağazaya çıkış",
             "en": "Store release",
-            "ar": "النشر في المتجر"
+            "ar": "النشر في المتجر",
+            "de": "Veröffentlichung im Store",
+            "ru": "Публикация в магазине"
           },
           "sure": {
             "tr": "1 hafta",
             "en": "1 week",
-            "ar": "أسبوع واحد"
+            "ar": "أسبوع واحد",
+            "de": "1 Woche",
+            "ru": "1 неделя"
           },
           "metin": {
             "tr": "Reklamsız deneme sürümüyle birlikte yayına alınır.",
             "en": "It goes live together with an ad-free trial version.",
-            "ar": "تُطلق مع نسخة تجريبية بلا إعلانات."
+            "ar": "تُطلق مع نسخة تجريبية بلا إعلانات.",
+            "de": "Geht zusammen mit der werbefreien Testversion online.",
+            "ru": "Выходит в эфир вместе с пробной версией без рекламы."
           }
         }
       ],
@@ -2771,17 +3399,23 @@
         "ust": {
           "tr": "Hafıza oyunu",
           "en": "Memory game",
-          "ar": "لعبة الذاكرة"
+          "ar": "لعبة الذاكرة",
+          "de": "Gedächtnisspiel",
+          "ru": "Игра на память"
         },
         "baslik": {
           "tr": "Stüdyonun yıllarını açın",
           "en": "Turn over the studio’s years",
-          "ar": "اقلب سنوات الاستوديو"
+          "ar": "اقلب سنوات الاستوديو",
+          "de": "Entdecken Sie die Jahre des Studios",
+          "ru": "Откройте для себя годы студии"
         },
         "metin": {
           "tr": "Bir karta dokunun ya da Enter’a basın; arka yüzde o yıl ne olduğunu okuyun. Tarihler kurgusaldır.",
           "en": "Tap a card or press Enter to read what happened that year on the back. Dates are fictional.",
-          "ar": "المس بطاقة أو اضغط Enter لتقرأ على ظهرها ما حدث في تلك السنة. التواريخ افتراضية."
+          "ar": "المس بطاقة أو اضغط Enter لتقرأ على ظهرها ما حدث في تلك السنة. التواريخ افتراضية.",
+          "de": "Tippen Sie auf eine Karte oder drücken Sie die Eingabetaste; auf der Rückseite lesen Sie, was in diesem Jahr geschah. Die Daten sind fiktiv.",
+          "ru": "Коснитесь карточки или нажмите Enter; на обороте прочтите, что произошло в тот год. Даты вымышленные."
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -2803,12 +3437,16 @@
           "baslik": {
             "tr": "Mutfak masasında",
             "en": "At the kitchen table",
-            "ar": "على طاولة المطبخ"
+            "ar": "على طاولة المطبخ",
+            "de": "Am Küchentisch",
+            "ru": "За кухонным столом"
           },
           "metin": {
             "tr": "İki kişi, bir telefon ve bir deste kâğıtla ilk fikirler.",
             "en": "Two people, one phone and a deck of paper cards: the first ideas.",
-            "ar": "شخصان وهاتف واحد ومجموعة بطاقات ورقية: الأفكار الأولى."
+            "ar": "شخصان وهاتف واحد ومجموعة بطاقات ورقية: الأفكار الأولى.",
+            "de": "Zwei Personen, ein Telefon und ein Stapel Papierkarten: die ersten Ideen.",
+            "ru": "Два человека, один телефон и пачка бумажных карточек: первые идеи."
           }
         },
         {
@@ -2817,12 +3455,16 @@
           "baslik": {
             "tr": "Küp Kasabası",
             "en": "Cube Town",
-            "ar": "مدينة المكعّب"
+            "ar": "مدينة المكعّب",
+            "de": "Küp Kasabası",
+            "ru": "Küp Kasabası"
           },
           "metin": {
             "tr": "İlk oyun mağazaya çıktı.",
             "en": "The first game reached the store.",
-            "ar": "وصلت اللعبة الأولى إلى المتجر."
+            "ar": "وصلت اللعبة الأولى إلى المتجر.",
+            "de": "Das erste Spiel ist im Store erschienen.",
+            "ru": "Первая игра вышла в магазине."
           }
         },
         {
@@ -2831,12 +3473,16 @@
           "baslik": {
             "tr": "Harf Bahçesi",
             "en": "Letter Garden",
-            "ar": "حديقة الحروف"
+            "ar": "حديقة الحروف",
+            "de": "Buchstaben-Garten",
+            "ru": "Сад букв"
           },
           "metin": {
             "tr": "Üç dilli sözlükle ikinci oyun.",
             "en": "The second game, with a three-language dictionary.",
-            "ar": "اللعبة الثانية بقاموس من ثلاث لغات."
+            "ar": "اللعبة الثانية بقاموس من ثلاث لغات.",
+            "de": "Das zweite Spiel mit dreisprachigem Wörterbuch.",
+            "ru": "Вторая игра с трехъязычным словарем."
           }
         },
         {
@@ -2845,12 +3491,16 @@
           "baslik": {
             "tr": "Atölyeye taşındık",
             "en": "We moved into the workshop",
-            "ar": "انتقلنا إلى الورشة"
+            "ar": "انتقلنا إلى الورشة",
+            "de": "Wir sind in die Werkstatt umgezogen",
+            "ru": "Мы переехали в мастерскую"
           },
           "metin": {
             "tr": "Tepebaşı’nda oyun masalı bir oda.",
             "en": "A room with a game table in Tepebasi.",
-            "ar": "غرفة بطاولة ألعاب في تبه باشي."
+            "ar": "غرفة بطاولة ألعاب في تبه باشي.",
+            "de": "Ein Raum voller Spieltische in Tepebaşı.",
+            "ru": "Комната с игровыми столами в Tepebaşı."
           }
         },
         {
@@ -2859,12 +3509,16 @@
           "baslik": {
             "tr": "Renk Treni",
             "en": "Colour Train",
-            "ar": "قطار الألوان"
+            "ar": "قطار الألوان",
+            "de": "Renk Treni",
+            "ru": "Renk Treni"
           },
           "metin": {
             "tr": "Renk körlüğü dostu desen modu eklendi.",
             "en": "A pattern mode friendly to colour blindness was added.",
-            "ar": "أُضيف وضع النقوش المناسب لعمى الألوان."
+            "ar": "أُضيف وضع النقوش المناسب لعمى الألوان.",
+            "de": "Muster-Modus für Farbenblindheit hinzugefügt.",
+            "ru": "Добавлен режим узоров для людей с цветовой слепотой."
           }
         },
         {
@@ -2873,12 +3527,16 @@
           "baslik": {
             "tr": "Salon Oyunları",
             "en": "Living Room Games",
-            "ar": "ألعاب الصالة"
+            "ar": "ألعاب الصالة",
+            "de": "Wohnzimmer-Spiele",
+            "ru": "Игры в гостиной"
           },
           "metin": {
             "tr": "Tek telefonla sırayla oynanan altı mini oyun.",
             "en": "Six mini games taken in turns on one phone.",
-            "ar": "ست ألعاب صغيرة تُلعب بالتناوب على هاتف واحد."
+            "ar": "ست ألعاب صغيرة تُلعب بالتناوب على هاتف واحد.",
+            "de": "Sechs Minispiele, die auf einem Telefon abwechselnd gespielt werden.",
+            "ru": "Шесть мини-игр, в которые играют по очереди на одном телефоне."
           }
         }
       ],

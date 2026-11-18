@@ -3,17 +3,23 @@
   "name": {
     "tr": "Oyunlar",
     "en": "Games",
-    "ar": "ألعابنا"
+    "ar": "ألعابنا",
+    "de": "Spiele",
+    "ru": "Игры"
   },
   "description": {
     "tr": "Oyun destesi ve stüdyonun yılları (kurgusal).",
     "en": "The game deck and the studio’s years (fictional).",
-    "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي)."
+    "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي).",
+    "de": "Spieldeck und die Jahre des Studios (fiktiv).",
+    "ru": "Игровая колода и годы студии (вымышленные)."
   },
   "keyword": {
     "tr": "mobil oyun, bulmaca, kelime oyunu",
     "en": "mobile game, puzzle, word game",
-    "ar": "لعبة جوال، ألغاز، لعبة كلمات"
+    "ar": "لعبة جوال، ألغاز، لعبة كلمات",
+    "de": "Mobiles Spiel, Puzzle, Wortspiel",
+    "ru": "Мобильная игра, головоломка, словесная игра"
   },
   "path": "hizmetler",
   "icon": "sports_esports",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Oyunlar",
     "en": "Games",
-    "ar": "ألعابنا"
+    "ar": "ألعابنا",
+    "de": "Spiele",
+    "ru": "Игры"
   },
   "date": "2026-11-16T22:41:13.281Z",
   "update": "2026-11-16T22:45:01.079Z"

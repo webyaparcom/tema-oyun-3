@@ -5,12 +5,16 @@
       "name": {
         "tr": "Oyunlar",
         "en": "Games",
-        "ar": "ألعابنا"
+        "ar": "ألعابنا",
+        "de": "Spiele",
+        "ru": "Игры"
       },
       "description": {
         "tr": "Oyun destesi ve stüdyonun yılları (kurgusal).",
         "en": "The game deck and the studio’s years (fictional).",
-        "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي)."
+        "ar": "مجموعة الألعاب وسنوات الاستوديو (افتراضي).",
+        "de": "Spieldeck und die Jahre des Studios (fiktiv).",
+        "ru": "Игровая колода и годы студии (вымышленные)."
       },
       "path": "hizmetler",
       "icon": "sports_esports",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Ekip",
         "en": "Team",
-        "ar": "فريقنا"
+        "ar": "فريقنا",
+        "de": "Team",
+        "ru": "Команда"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -51,14 +57,18 @@
       "description": {
         "tr": "Oyuncu kartlarıyla ekip ve yapım adımları (kurgusal).",
         "en": "The team as player cards and the making steps (fictional).",
-        "ar": "الفريق في بطاقات لاعبين وخطوات الصنع (افتراضي)."
+        "ar": "الفريق في بطاقات لاعبين وخطوات الصنع (افتراضي).",
+        "de": "Team und Produktionsschritte mit Darstellerkarten (fiktiv).",
+        "ru": "Команда и этапы производства с карточками исполнителей (вымышленные)."
       }
     },
     {
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "تواصل"
+        "ar": "تواصل",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -79,7 +89,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],

@@ -4,12 +4,16 @@
   "description": {
     "tr": "Fırıldak Oyun Evi: Eskişehir’de ailece oynanan bulmaca, kelime, renk ve ritim oyunları tasarlayan küçük mobil oyun stüdyosu. Demo site; içerik kurgusaldır.",
     "en": "Firildak Game House: a small mobile game studio in Eskisehir designing puzzle, word, colour and rhythm games for families to play together. Demo site; content is fictional.",
-    "ar": "بيت فِرِلداك للألعاب: استوديو صغير لألعاب الجوال في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع تلعبها العائلة معًا. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "بيت فِرِلداك للألعاب: استوديو صغير لألعاب الجوال في إسكي شهير يصمّم ألعاب ألغاز وكلمات وألوان وإيقاع تلعبها العائلة معًا. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Fırıldak Oyun Evi: ein kleines Mobile-Game-Studio in Eskişehir, das Rätsel-, Wort-, Farb- und Rhythmusspiele für die ganze Familie entwickelt. Demo-Website; der Inhalt ist fiktiv.",
+    "ru": "Fırıldak Oyun Evi: небольшая студия мобильных игр в Эскишехире, создающая головоломки, словесные, цветовые и ритм-игры для всей семьи. Демо-сайт; содержание вымышленное."
   },
   "keyword": {
     "tr": "mobil oyun stüdyosu, bulmaca oyunu, kelime oyunu, aile oyunu, eskişehir",
     "en": "mobile game studio, puzzle game, word game, family game, eskisehir",
-    "ar": "استوديو ألعاب جوال، لعبة ألغاز، لعبة كلمات، لعبة عائلية، إسكي شهير"
+    "ar": "استوديو ألعاب جوال، لعبة ألغاز، لعبة كلمات، لعبة عائلية، إسكي شهير",
+    "de": "Mobile-Game-Studio, Rätselspiel, Wortspiel, Familienspiel, Eskişehir",
+    "ru": "студия мобильных игр, игра-головоломка, словесная игра, семейная игра, Эскишехир"
   },
   "category": "Kurumsal",
   "name": "Fırıldak",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
